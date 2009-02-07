@@ -1,0 +1,2 @@
+# Disposición transitoria séptima
+A efectos de la aplicación del parágrafo I del artículo 293 de esta Constitución, el territorio indígena tendrá como base de su delimitación a las Tierras Comunitarias de Origen. En el plazo de un año desde la elección del Órgano Ejecutivo y Legislativo, la categoría de Tierra Comunitaria de Origen se sujetará a un trámite administrativo de conversión a Territorio Indígena Originario Campesino, en el marco establecido en esta Constitución.
