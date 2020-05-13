@@ -1,0 +1,2 @@
+# Disposiciones transitoria, art. 2
+Art. 2º.- El Poder Ejecutivo establecerá un plazo para que la Cámara Nacional de Comercio, la Cámara Nacional de Industrias y sus afiliadas departamentales entreguen al Ministerio de Industria, Comercio y Turismo los documentos y archivos que tuvieran a sus respectivos cargos, para que este organice y ponga en funcionamiento el "Registro de Comercio" a que se refiere este Código.
