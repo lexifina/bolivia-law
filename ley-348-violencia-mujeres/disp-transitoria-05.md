@@ -1,0 +1,2 @@
+# Disposición transitoria 5
+QUINTA. La Fiscalía General del Estado, adoptará las medidas necesarias para la creación de las Fiscalías de Materia especializadas contra la violencia hacia las mujeres y la Dirección Forense Especializada, para que funcionen dentro de los tres (3) meses a partir de la promulgación de la presente Ley, dentro los cuales deberán aprobar todos los instrumentos y protocolos para el cumplimiento de sus funciones.

@@ -1,0 +1,2 @@
+# Disposición transitoria 2
+SEGUNDA. Las instituciones públicas y privadas, cuando corresponda; responsables de la atención, protección y sanción en casos de violencia hacia las mujeres, deberán integrar sus respectivos protocolos específicos en un formulario único para la detección y atención de salud, recepción de denuncias, registro, tramitación y seguimiento, del cual cada una empleará la parte que le corresponda y constituirá documento legal válido durante el proceso judicial. Este instrumento deberá ser implementado en un plazo no mayor a tres (3) meses.

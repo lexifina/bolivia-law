@@ -1,0 +1,2 @@
+# Disposición transitoria 7
+SÉPTIMA. El nivel central del Estado adoptará las medidas necesarias para la creación, adaptación y funcionamiento de la institucionalidad prevista por esta Ley, en el plazo de tres (3) meses a partir de su promulgación. Las Entidades Territoriales Autónomas, podrán adoptar convenios intergubernativos para el cumplimiento de lo establecido en la presente Ley. Los Municipios Tipo A, podrán aplicar de manera gradual las obligaciones que la Ley les asigna.
