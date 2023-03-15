@@ -1,0 +1,2 @@
+# Disposición final 1
+DISPOSICIÓN FINAL PRIMERA.- La categoría de territorio indígena originario campesino incorporada en la nueva Constitución Política del Estado en su condición de Tierra Comunitaria de Origen o territorio indígena originario campesino tiene como únicos titulares del derecho propietario colectivo a los pueblos que los demandaron, a los pueblos indígenas de tierras bajas o los pueblos originarios de tierras altas, según corresponda.

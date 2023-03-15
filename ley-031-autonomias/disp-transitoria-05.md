@@ -1,0 +1,2 @@
+# Disposición transitoria 5
+DISPOSICIÓN TRANSITORIA QUINTA. La Asamblea Legislativa Plurinacional promulgará una ley de endeudamiento público, que establezca los principios, procesos y procedimientos para la contratación de créditos y la administración del endeudamiento público de todas las entidades públicas, en sujeción a lo establecido en los Numerales 8 y 10 del Artículo 158, Parágrafo I del Artículo 322 y Numeral 34 Parágrafo II del Artículo 298 de la Constitución Política del Estado.

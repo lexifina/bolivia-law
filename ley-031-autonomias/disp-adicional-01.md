@@ -1,0 +1,2 @@
+# Disposición adicional 1
+DISPOSICIÓN ADICIONAL PRIMERA. La creación, modificación o supresión de tributos por las entidades territoriales autónomas, en el ámbito de sus competencias, se realizará mediante leyes emitidas por su órgano legislativo. Estas leyes aplicarán todas las disposiciones tributarias en vigencia sobre sus respectivos dominios tributarios. En ningún caso estas normas podrán establecer procedimientos jurisdiccionales, tipificar ilícitos tributarios ni establecer sanciones.

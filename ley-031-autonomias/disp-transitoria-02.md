@@ -1,0 +1,4 @@
+# Disposición transitoria 2
+DISPOSICIÓN TRANSITORIA SEGUNDA. La creación de impuestos de las entidades territoriales autónomas, se sujetará a las disposiciones contenidas en la ley de clasificación de impuestos y la legislación básica de regulación para la creación y/o modificación de impuestos, en lo demás se aplicará la Ley N° 2492, de 2 de agosto de 2003, Código Tributario Boliviano o la norma que lo sustituya.
+La ley de clasificación de impuestos y la legislación básica de regulación deberán ser promulgadas en el plazo máximo de un año computable a partir de la promulgación de la presente Ley.
+La Ley N° 2492, de 2 de agosto de 2003, Código Tributario Boliviano o la norma que lo sustituya, también se aplicará a los tributos de dominio de las entidades territoriales autónomas indígena originaria campesinas y regionales.

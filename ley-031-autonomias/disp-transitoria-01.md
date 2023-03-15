@@ -1,0 +1,3 @@
+# Disposición transitoria 1
+DISPOSICIÓN TRANSITORIA PRIMERA. Se reconoce a los gobiernos municipales el dominio tributario y la administración del Impuesto a la Propiedad de Bienes Inmuebles, el Impuesto a la Propiedad de Vehículos Automotores y el Impuesto Municipal a las Transferencias de Inmuebles y Vehículos Automotores, conforme a lo dispuesto en la Ley N° 843 y sus disposiciones reglamentarias.
+Mientras no se emita la legislación específica, las entidades territoriales autónomas municipales continuarán administrando la coparticipación del Impuesto Especial al Consumo de la Chicha de Maíz con Grado Alcohólico.

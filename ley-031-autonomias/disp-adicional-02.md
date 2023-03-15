@@ -1,0 +1,2 @@
+# Disposición adicional 2
+DISPOSICIÓN ADICIONAL SEGUNDA. Para la creación de tributos de las entidades territoriales autónomas en el ámbito de sus competencias, se emitirá un informe técnico por la instancia competente por el nivel central del Estado, sobre el cumplimiento de las condiciones establecidas en el Parágrafo I y IV del Artículo 323 de la Constitución Política del Estado y elementos constitutivos del tributo.
