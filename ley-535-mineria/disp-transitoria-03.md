@@ -1,0 +1,2 @@
+# Disposición transitoria 3
+TERCERA. El Servicio de Impuestos Nacionales - SIN continuará con la función de administración del cobro de la Regalía Minera - RM, mientras los gobiernos autónomos departamentales no tengan al efecto implementados sistemas automatizados, cuyos costos serán asumidos por los gobiernos autónomos departamentales y municipales en forma proporcional a su participación en la distribución de la Regalía Minera - RM.

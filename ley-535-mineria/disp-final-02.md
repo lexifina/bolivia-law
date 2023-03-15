@@ -1,0 +1,5 @@
+# Disposición final 2
+SEGUNDA.
+I. Dictada la resolución aprobatoria establecida en el Parágrafo III del Artículo 205 de la presente Ley, en el trámite para la suscripción de cada contrato administrativo minero por adecuación de ATE's de los actores productivos mineros privados, dejará de tener efecto el procedimiento y proceso de verificación y reversión sobre la inexistencia de actividad minera dispuestos en la Ley N° 403, de fecha 18 de septiembre de 2013, y su Decreto Reglamentario N° 1801, de fecha 20 de noviembre de 2013, respecto de las áreas bajo contrato.
+II. Si a la fecha de dictada la resolución aprobatoria establecida en el Parágrafo III del Artículo 205 de la presente Ley, estuviere en curso y no hubiere concluido el procedimiento o proceso de verificación o reversión, respecto de las áreas bajo el contrato, el mismo quedará sin efecto en el estado en el que se encuentre, debiendo disponerse el archivo de obrados.
+III. Suscrito el contrato administrativo minero por adecuación, la verificación del cumplimiento de los Planes de Trabajo e Inversión, quedará sujeta a lo dispuesto en el Parágrafo VI del Artículo 22 de la presente Ley.

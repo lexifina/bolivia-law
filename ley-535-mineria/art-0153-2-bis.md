@@ -1,0 +1,10 @@
+# Artículo 153 bis
+Artículo 153 BIS. (CONTRATOS DE PRODUCCIÓN MINERA).
+I. El Contrato de Producción Minera será suscrito por la Corporación Minera de Bolivia - COMIBOL con actores productivos mineros para el desarrollo de actividades de la cadena productiva en las áreas de COMIBOL.
+II. En el caso de contratos con actores productivos mineros privados, la COMIBOL debe determinar un porcentaje de participación económica a su favor, que se calculará sobre el valor bruto de venta. En el caso de contratos con cooperativas mineras, el porcentaje de participación económica se calculará respetando el carácter social y la naturaleza de las mismas.
+III. Las solicitudes de Contratos de Producción Minera deben cumplir los requisitos dispuestos para los Contratos Administrativos Mineros, así como las previsiones referidas al área máxima, cláusulas obligatorias y modalidades de extinción con excepción de los incisos a), e), f) y g) del Parágrafo I del Artículo 114 de la presente Ley.
+IV. El plazo de estos contratos será de hasta quince (15) años, prorrogable por el mismo plazo, previa evaluación técnica de la COMIBOL.
+V. Dentro de las Cláusulas Obligatorias del Contrato de Producción Minera, la COMIBOL debe contemplar la participación económica de las partes y las previsiones de incumplimiento, resolución contractual u otra modalidad de extinción del derecho. El contrato podrá además contener otras cláusulas.
+VI. Los Contratos de Producción Minera estarán sujetos a aprobación legislativa, con excepción de aquellos que se suscriban por adecuación, conforme a lo establecido en el Artículo 132 de la presente Ley.
+VII. La Autoridad Jurisdiccional Administrativa Minera - AJAM, emitirá un acto administrativo específico para el inicio del proceso de adecuación de los Contratos previstos en el Parágrafo I del Artículo 63 de la presente Ley, a Contratos de Producción Minera.
+VIII. La adecuación a Contratos de Producción Minera prevista en el Parágrafo anterior, estará a cargo de la COMIBOL y se efectuará sin perjuicio de la adecuación y registro de los derechos de COMIBOL a Contratos Administrativos Mineros en los casos que corresponda.
