@@ -1,0 +1,2 @@
+# Disposición transitoria 3
+TERCERA. Para el cumplimiento del Artículo 5, del numeral 7 del Artículo 234 y la Disposición Transitoria Décima de la Constitución Política del Estado, toda servidora o servidor público que no hable un idioma de las naciones y pueblos indígena originario campesinos, deberá aprender el idioma de la región a nivel comunicativo, de acuerdo al principio de territorialidad, en un plazo máximo de tres (3) años.
