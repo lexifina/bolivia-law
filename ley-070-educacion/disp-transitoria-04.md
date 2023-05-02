@@ -1,0 +1,2 @@
+# Disposición transitoria 4
+Cuarta. (Universidades Privadas). Las Universidades Privadas legalmente establecidas y en funcionamiento en el Estado Plurinacional, tramitarán en ciento ochenta días la jerarquización de la normativa que autoriza su funcionamiento en base a Decreto Supremo en concordancia con la Constitución Política del Estado, cumpliendo los procedimientos establecidos para el efecto.

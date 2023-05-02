@@ -1,0 +1,2 @@
+# Disposición transitoria 7
+Séptima. (Instituto Normal Superior Católico). Las y los estudiantes que a la fecha de la promulgación de la presente ley cursan estudios, continuarán hasta su graduación, en las mismas condiciones con las que fueron inscritos. El Instituto Normal Superior Católico concluirá su funcionamiento, con la graduación de la última admisión autorizada por el Ministerio de Educación.

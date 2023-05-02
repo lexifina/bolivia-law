@@ -1,0 +1,2 @@
+# Disposición abrogatoria única
+Única. Se abrogan la Ley 1565 de Reforma Educativa, de fecha 07 de julio de 1994, la Ley 3009 del Consejo Nacional de Acreditación de Educación Superior y otras disposiciones normativas contrarias a la presente Ley. En tanto se apruebe la reglamentación para cada ámbito específico del Sistema Educativo Plurinacional, se sujetarán al marco normativo anterior a la promulgación de la presente Ley.

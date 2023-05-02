@@ -1,0 +1,7 @@
+# Disposición transitoria 9
+Novena. (Servicios Departamentales de Educación).
+a) Los Servicios Departamentales de Educación deberán adecuar y transferir su estructura institucional, administrativa, presupuestaria, patrimonial y de personal a las Direcciones Departamentales de Educación, de acuerdo a lo dispuesto en la presente Ley.
+b) Los Gobiernos Departamentales transferirán a título gratuito el derecho propietario de los bienes muebles e inmuebles de los ex Servicios Departamentales de Educación a favor de las Direcciones Departamentales de Educación.
+c) Los Gobiernos Departamentales transferirán a título gratuito el derecho propietario de los bienes muebles e inmuebles de las Direcciones Distritales de Educación a favor de los Gobiernos Municipales, en donde corresponda, para el funcionamiento de las Direcciones Distritales dependientes de las Direcciones Departamentales de Educación.
+d) Los recursos inscritos en los Gobiernos Departamentales para el pago de haberes del magisterio fiscal, deben ser transferidos a las Direcciones Departamentales de Educación, en tanto éstas no cuenten con la capacidad técnica y operativa para administrar el presupuesto de las partidas respectivas se ejecutarán bajo la administración del Ministerio de Educación.
+e) Los Gobiernos Departamentales transferirán a las Direcciones Departamentales de Educación los recursos económicos que financiaban gastos de funcionamiento de los Servicios Departamentales de Educación.

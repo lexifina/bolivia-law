@@ -1,0 +1,2 @@
+# Disposición transitoria 10
+Décima. (Institucionalización). Todos los cargos y autoridades de los subsistemas y niveles del Sistema Educativo Plurinacional deberán adecuarse a las estructuras de administración y gestión establecidas en la presente ley, a través de procesos de institucionalización de acuerdo al reglamento del escalafón y los reglamentos específicos, en concordancia a la Constitución Política del Estado.
