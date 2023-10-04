@@ -1,0 +1,2 @@
+# Disposición transitoria 6
+SEXTA. El Ministerio de Justicia y Transparencia Institucional, en un plazo de ciento veinte (120) días hábiles, computables a partir de la publicación de la presente Ley, aprobará el reglamento para la implementación del Sistema de Información de Transparencia, Prevención y Lucha contra la Corrupción - SITPRECO, y coordinará con la Procuraduría General del Estado, la implementación del Registro Obligatorio de Procesos del Estado - ROPE.

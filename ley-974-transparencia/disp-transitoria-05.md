@@ -1,0 +1,2 @@
+# Disposición transitoria 5
+QUINTA. Las denuncias por negación de acceso a la información que estén en gestión en el Ministerio de Justicia y Transparencia Institucional previas a la vigencia de la presente Ley, deberán ser remitidas a las Unidades de Transparencia y Lucha contra la Corrupción para su gestión, en un plazo de treinta (30) días hábiles, computables a partir de la publicación de la presente Ley.

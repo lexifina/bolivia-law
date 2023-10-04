@@ -1,0 +1,5 @@
+# Disposición transitoria 1
+PRIMERA.
+I. Las entidades y empreas públicas que a la fecha de la publicación de la presente Ley no cuenten con Unidades de Transparencia y Lucha Contra la Corrupción, deberán implementarlas en un plazo máximo de noventa (90) días hábiles. En tanto se constituya dicha Unidad, designarán temporalmente a una o un servidor público como Responsable de Transparencia y Lucha Contra la Corrupción, quien cumplirá las funciones establecidas en la presente Ley.
+II. Las entidades territoriales autónomas municipales con población mayor a treinta mil (30.000) habitantes, que a la fecha no cuenten con Unidades de Transparencia y Lucha Contra la Corrupción o Responsable, tendrán un plazo de ciento ochenta (180) días hábiles, computables a partir de la publicación de la presente Ley, para constituir sus Unidades de Transparencia y Lucha Contra la Corrupción o designar a una o un Responsable, según corresponda.
+III. Las entidades y empresas públicas que a la fecha de la publicación de la presente Ley cuenten con Unidades de Transparencia y Lucha Contra la Corrupción, deberán adecuar sus funciones a lo establecido en la presente Ley.
