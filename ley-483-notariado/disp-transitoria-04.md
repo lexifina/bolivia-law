@@ -1,0 +1,2 @@
+# Disposición transitoria 4
+CUARTA. El Órgano Judicial continuará realizando la venta de valores notariales, cuyo plazo no podrá exceder de ciento ochenta (180) días y bajo supervisión y control de la Dirección del Notariado Plurinacional. Y al cabo del mencionado plazo deberá proceder a la entrega de los saldos de los valorados mediante inventario. Los ingresos que sean percibidos por la venta de valores notariales durante el periodo antes señalado, serán deducidos del monto que serán transferidos al Órgano Judicial conforme a la Disposición Final Segunda.
