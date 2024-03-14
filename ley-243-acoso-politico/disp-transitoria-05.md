@@ -1,0 +1,2 @@
+# Disposición transitoria 5
+QUINTA. A efectos de dar cumplimiento al parágrafo II del Artículo 16, se otorga el plazo de noventa (90) días a partir de la publicación de la presente Ley, a objeto de que las instituciones públicas modifiquen sus reglamentos internos, de personal, disciplinarios u otros que correspondan, incluyendo como faltas los actos descritos en el Artículo 8 de la presente Ley y sus sanciones.

@@ -1,0 +1,2 @@
+# Disposición transitoria 4
+CUARTA. Las organizaciones políticas y sociales, en el plazo de 180 días a partir de la vigencia de la presente Ley, incorporarán en sus estatutos y reglamentos internos disposiciones referidas a la prevención, atención y sanción a los actos de acoso y violencia política hacia las mujeres; además deberán incorporar disposiciones específicas que promuevan y garanticen la participación política en igualdad de condiciones entre mujeres y hombres.
