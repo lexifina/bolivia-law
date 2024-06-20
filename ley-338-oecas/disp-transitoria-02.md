@@ -1,0 +1,2 @@
+# Disposición transitoria 2
+SEGUNDA. El Ministerio de Desarrollo Productivo y Economía Plural, en el plazo de noventa (90) días a partir de la publicación de la presente Ley, emitirá la normativa para la implementación del Sello Social Boliviano que certifique el uso de mano de obra e insumos locales provenientes de la producción agropecuaria nacional, incluyendo la agricultura familiar sustentable, en la transformación, industrialización de alimentos y exportación de productos.
