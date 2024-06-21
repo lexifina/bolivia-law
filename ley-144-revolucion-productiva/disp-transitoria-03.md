@@ -1,0 +1,5 @@
+# Disposición transitoria 3
+TERCERA.
+I. Se establece el arancel diferenciado reduciendo su cuantía para la importación de maquinaria, equipos e insumos agropecuarios, considerando el tipo de maquinaria, por el lapso de cinco (5) años, sujeto a reglamentación en el plazo máximo de treinta (30) días a partir de la publicación de la presente Ley, favoreciendo a las y los productores de las comunidades indígena originario campesinas, comunidades interculturales y afrobolivianas.
+II. Se instruye a las diferentes instituciones, organismos estatales y autoridades nacionales involucradas en los procesos de legalización, tramitación, verificación y asignación de recursos, apoyar, facilitar y viabilizar los procesos necesarios para que se cumpla con el presente mandato.
+III. El Ministerio de Desarrollo Rural y Tierras deberá apoyar la regularización del derecho propietario de la maquinaria y equipo agrícola mediante mecanismos de coordinación con las otras instancias del Órgano Ejecutivo, con el fin de facilitar su registro.

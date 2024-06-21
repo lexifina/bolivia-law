@@ -1,0 +1,2 @@
+# Disposición transitoria 6
+SEXTA. En el plazo de ciento veinte (120) días a partir de la publicación de la presente Ley, el Órgano Ejecutivo del nivel central del Estado deberá emitir las disposiciones normativas para la creación y fortalecimiento de entidades públicas según corresponda, de acuerdo a lo establecido en el Artículo 38 de la presente Ley, con la respectiva asignación presupuestaria.

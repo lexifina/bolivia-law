@@ -1,0 +1,2 @@
+# Disposición transitoria 9
+NOVENA. De acuerdo a lo establecido en el Parágrafo II, Numeral 3 del Artículo 20 de la presente Ley, el Órgano Ejecutivo, en el plazo de noventa (90) días hábiles a partir de la publicación de la presente Ley, emitirá normativa para la ampliación preferente del servicio de provisión de productos a favor de las comunidades indígena originario campesinas, comunidades interculturales y afrobolivianas para el Programa de Alimentación Complementaria Escolar y el Subsidio de Lactancia Materna.
