@@ -1,0 +1,2 @@
+# Disposición final 1
+Artículo derogado por la Disposición Abrogatoria y Derogatoria, Cuarta de la Ley 1173 de 03 de mayo de 2019 - Ley de Abreviación Procesal Penal y de Fortalecimiento de la Lucha Integral contra la Violencia a Niñas, Niños, Adolescentes y Mujeres.
