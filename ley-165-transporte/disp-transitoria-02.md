@@ -1,0 +1,4 @@
+# Disposición transitoria 2
+SEGUNDA.
+I. La presente Ley determina el ordenamiento normativo general del sector transporte, la misma que deberá ser sustentada por normativas específicas para cada modalidad de transporte a ser promulgadas en el lapso de dos años, su formulación estará bajo la responsabilidad de la autoridad competente del nivel central del Estado. En tanto se emitan las disposiciones específicas señaladas, se cumplirá la presente Ley en todo cuanto sea aplicable.
+II. Los operadores que hubieran suscrito contratos y que cuenten con autorizaciones para la prestación del servicio público de transporte, que se encuentren vigentes a la fecha de promulgación de la presente Ley, deberán obligatoriamente adecuar dichos contratos al nuevo marco normativo. El proceso de adecuación incentivará la ejecución de inversiones que sean necesarias hasta su culminación y reconocerá las efectuadas.
