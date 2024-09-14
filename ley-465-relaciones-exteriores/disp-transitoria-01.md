@@ -1,0 +1,2 @@
+# Disposición transitoria 1
+DECLARADO INCONSTITUCIONAL POR SCP 0016/2021

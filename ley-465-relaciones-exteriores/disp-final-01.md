@@ -1,0 +1,2 @@
+# Disposición final 1
+PRIMERA. Mediante norma reglamentaria correspondiente, se desarrollará la estructura orgánica del Servicio de Relaciones Exteriores del Estado Plurinacional de Bolivia, considerando sus especificidades propias, funciones específicas, características especiales y los lineamientos básicos de la estructura organizativa del Órgano Ejecutivo, así como los Instrumentos Internacionales que rigen la materia; asimismo, regulará los niveles de coordinación, supervisión, dependencia o tuición definidos en la presente Ley.
