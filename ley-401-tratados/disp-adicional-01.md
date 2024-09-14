@@ -1,0 +1,2 @@
+# Disposición adicional 1
+PRIMERA. (RÉGIMEN ECONÓMICO Y FINANCIERO). La operatividad e implementación de lo dispuesto en el Articulo 73 de la presente Ley, se financiará con recursos del Ministerio de Relaciones Exteriores, en el caso de que éstos sean insuficientes, el Ministerio de Economía y Finanzas Públicas asignará los mismos de acuerdo a disponibilidad financiera, previa solicitud del Ministerio de Relaciones Exteriores.

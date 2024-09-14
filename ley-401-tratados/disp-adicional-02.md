@@ -1,0 +1,4 @@
+# Disposición adicional 2
+SEGUNDA. En el marco de lo previsto en el numeral 8 del Parágrafo I del Artículo 298 de la Constitución Política del Estado, que reconoce a la política exterior como una competencia privativa del nivel central del Estado, se deberá elaborar la norma que regule el relacionamiento internacional de las entidades territoriales autónomas, conforme a lo establecido en el numeral 5 del Parágrafo I del Artículo 299 del texto constitucional, a tal efecto:
+a) El ámbito material de los Acuerdos Interinstitucionales deberá circunscribirse exclusivamente a las atribuciones propias de las entidades territoriales autónomas que los suscriben.
+b) Las entidades territoriales autónomas comunicarán al Ministerio de Relaciones Exteriores, todas las negociaciones que sean necesarias previa a la suscripción de los Acuerdos Interinstitucionales.
