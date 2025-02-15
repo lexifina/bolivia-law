@@ -1,0 +1,2 @@
+# Disposición adicional 1
+PRIMERA. Los Mecanismos de Mitigación y Adaptación de la Autoridad Plurinacional de la Madre Tierra,realizarán la adscripción de los programas, proyectos e iniciativas relacionados con sus objetivos y áreas temáticas de intervención que son desarrollados en el país por entidades públicas, privadas, comunitarias y/o mixtas de acuerdo a reglamentación específica a ser formulada por la Entidad para cada Mecanismo, promoviendo el alineamiento, ajuste y la articulación de estas iniciativas a las políticas del ámbito plurinacional.

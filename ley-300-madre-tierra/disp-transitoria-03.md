@@ -1,0 +1,2 @@
+# Disposición transitoria 3
+TERCERA. El Ministerio de Planificación del Desarrollo, deberá ajustar el Plan General de Desarrollo Económico y Social, así como los planes de las entidades territoriales autónomas, al enfoque del Vivir Bien, a través del desarrollo integral en armonía y equilibrio con la Madre Tierra, en un plazo máximo de ciento ochenta (180) días a partir de la promulgación de la presente Ley.

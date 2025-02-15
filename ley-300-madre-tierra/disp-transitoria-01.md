@@ -1,0 +1,2 @@
+# Disposición transitoria 1
+PRIMERA. Las entidades que trabajan con recursos de cooperación internacional, deberán articular sus intervenciones a los enfoques, principios, lineamientos, estrategias, planes, prioridades y objetivos del Vivir Bien, a través del desarrollo integral en armonía y equilibrio con la Madre Tierra, en el plazo máximo de ciento ochenta (180) días calendario a partir de la publicación de la presente Ley y el Decreto Supremo Reglamentario.
