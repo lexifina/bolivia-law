@@ -1,0 +1,6 @@
+# Disposición final 3
+TERCERA. (Certificación para la Concesión de Tierras).
+I. El Instituto Nacional de Reforma Agraria certificará los derechos de propiedad agraria existentes en las tierras de uso forestal y aquellas destinadas a la conservación de la biodiversidad, investigación y ecoturismo, en el plazo de (60) sesenta días a partir de presentada la solicitud.
+Dicha certificación constituirá requisito indispensable para la otorgación de concesiones de tierras forestales, de conservación de la biodiversidad, investigación o ecoturismo y para la clasificación de áreas por parte de las entidades competentes.
+II. En caso de no certificarse en el plazo establecido en el parágrafo I que antecede, la entidad solicitante podrá requerir el pronto despacho de la certificación. Si aún así el certificado no es emitido, el Director Nacional del Instituto Nacional de Reforma Agraria incurrirá en responsabilidad calificada de acuerdo a la ley 1178 de 9 de julio de 1990.
+En ningún caso las entidades competentes otorgarán concesiones de tierras forestales, de conservación de la biodiversidad, investigación o ecoturismo a personas individuales o colectivas distintas a los propietarios de la tierra, respecto de los cuales la certificación del Instituto Nacional de Reforma Agraria acredite derechos de propiedad.

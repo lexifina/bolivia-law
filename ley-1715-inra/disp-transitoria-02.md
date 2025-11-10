@@ -1,0 +1,5 @@
+# Disposición transitoria 2
+SEGUNDA.
+I. De acuerdo a lo dispuesto en esta ley, el Servicio Nacional de Reforma Agraria titulará inmediatamente promulgada la misma, como Tierras Comunitarias de Origen, los territorios indígenas: Chimán (TICH), Multiétnico No 1 (TIM), Sirionó (TIS), Weenhayek (TIWM), y el Territorio Indígena y Parque Nacional Isiboro Sécure (TIPNIS), reconocidos mediante Decretos Supremos Nos. 22611 ; 22609 ; 23500 y 22610 respetando los derechos legalmente adquiridos por terceros.
+II. Los territorios indígenas Yuquí, Araona y el Territorio Indígena y Reserva de la Biosfera Pilón Lajas, reconocidos mediante Decretos Supremos 23108; 23110 y 23111 serán titulados en el término improrrogable de sesenta (60) días a partir de la publicación de esta ley, en el cual se determinará su ubicación geográfica y límites.
+III. Las superficies consignadas en los títulos referidos en los parágrafos anteriores están sujetas a modificación o confirmación, de acuerdo a los resultados del Saneamiento de Tierras Comunitarias de Origen (SAN-TCO).
