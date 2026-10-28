@@ -1,0 +1,20 @@
+The legal texts come from official publications of the Estado Plurinacional de Bolivia:
+
+  Fuente: Gaceta Oficial del Estado Plurinacional de Bolivia (texto de consulta),
+  http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf
+  (read through the Internet Archive capture of 6 October 2026), retrieved 28 October 2026;
+  the preamble from the Tribunal Constitucional Plurinacional's edition,
+  https://tcpbolivia.bo/wp-content/uploads/2025/04/CPE_2009.pdf, retrieved 28 October 2026.
+
+The Gaceta marks its text "TEXTO DE CONSULTA" and "Derechos Reservados © Gaceta Oficial de Bolivia", and no
+source publishes a licence. They are official legal texts; their copyright status is not confirmed here, and they
+are reproduced with the attribution above.
+
+Changes made by Lexifina: the text was converted to one Markdown file per provision, one paragraph per line;
+spacing, quotes, dashes and ligature glyphs were normalised; page numbers and running headers were removed; headings
+were gathered in one structure file; and the text was arranged as git commits credited to the norms and rulings
+concerned. The wording of the law was not changed. None of the publishers endorses this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

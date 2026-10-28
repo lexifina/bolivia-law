@@ -1,0 +1,11 @@
+{
+  "path": "bo",
+  "code": "BO",
+  "name": "Bolivia",
+  "level": "country",
+  "repo": "https://github.com/lexifina/bolivia-law",
+  "build": "built: Constitución Política del Estado 2009 (1 text, unamended; 3 no-words-changed events 2016-2023)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28",
+  "sources": 4
+}
