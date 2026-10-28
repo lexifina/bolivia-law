@@ -140,7 +140,7 @@ def parse_cpe_gaceta(path: Path) -> dict:
             zone = "body"
             continue
         if zone == "promulgacion":
-            if t.startswith("EVO MORALES") or t.startswith("PRESIDENTE CONSTITUCIONAL"):
+            if t.startswith(("EVO MORALES", "PRESIDENTE CONSTITUCIONAL", "Por cuanto")):
                 add(t, True)
             else:
                 add(t, False)
@@ -276,6 +276,49 @@ def articles_by_edition(path: Path, drop) -> dict[int, str]:
     return {n: squash(" ".join(v)) for n, v in arts.items()}
 
 
+
+PUNCT = set(".,;:")
+
+
+def closing_block(path: Path, drop) -> str:
+    """Squashed text of the transitional, abrogating and final provisions in an edition (for the cross-check)."""
+    lines = [t for _, t in pdf_lines(path, drop)]
+    i = max(k for k, t in enumerate(lines) if t == "DISPOSICIONES TRANSITORIAS")
+    j = next(k for k in range(i, len(lines)) if lines[k].startswith("Remítase"))
+    s = squash(" ".join(t for t in lines[i:j] if not (is_caps(t) and not RE_NUM.match(t))))
+    s = re.sub(r"(primera|segunda|tercera|cuarta|quinta|sexta|séptima|octava|novena|décima)\.", "", s)
+    return s.replace("disposiciónabrogatoria.", "")
+
+
+def three_way(g: dict[str, str], eds: dict[str, dict[str, str]]) -> dict:
+    """Every difference between the Gaceta text and each other edition, classed as punctuation or wording, and
+    whether the other two editions agree against the Gaceta (then the Gaceta is the odd one out)."""
+    import difflib
+    per = {}
+    for name, e in eds.items():
+        for k in g:
+            for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, g[k], e.get(k, ""), autojunk=False).get_opcodes():
+                if tag != "equal":
+                    per.setdefault(k, {}).setdefault(name, []).append((i1, i2, e[k][j1:j2]))
+    rows, alone_words, alone_punct, single = [], [], 0, {n: 0 for n in eds}
+    for k in sorted(per):
+        a, b = (set(per[k].get(n, [])) for n in eds)
+        for i1, i2, y in sorted(a | b):
+            x = g[k][i1:i2]
+            word = not set(x + y) <= PUNCT
+            who = "both" if (i1, i2, y) in a and (i1, i2, y) in b else next(
+                n for n, sset in zip(eds, (a, b)) if (i1, i2, y) in sset)
+            if who == "both":
+                alone_punct += not word
+                if word:
+                    alone_words.append(k)
+            else:
+                single[who] += 1
+            rows.append({"unit": k, "who": who, "class": "wording" if word else "punctuation",
+                         "context": g[k][max(0, i1 - 30):i1], "gaceta": x, "other": y, "after": g[k][i2:i2 + 15]})
+    return {"gaceta_alone_words": alone_words, "gaceta_alone_punctuation": alone_punct,
+            "differences_in_one_other_edition_only": single, "differences": rows}
+
 def to_text(label_head: str, paras: list[str]) -> str:
     body = [p for p in paras if p]
     return "\n".join([f"# {label_head}", *body]) + "\n"
@@ -298,18 +341,19 @@ def build_constitution(report: dict) -> dict:
         kind = "art" if k.startswith("art-") else "transitional" if "transitoria" in k else "provision"
         head = u["label"].replace("Art.", "Artículo")
         out[k] = {"label": u["label"], "kind": kind, "text": to_text(head, u["paras"])}
-    # cross-check every article against the TCP and Diputados editions
-    g = {int(k[4:]): squash(" ".join(u["paras"])) for k, u in units.items() if k.startswith("art-")}
-    report["articles"] = len(g)
+    # Cross-check: every article, and the closing provisions as one block, against the TCP and Diputados editions.
+    g = {f"art-{n:03d}": squash(" ".join(u["paras"])) for n, u in
+         ((int(k[4:]), u) for k, u in units.items() if k.startswith("art-"))}
+    g["disposiciones"] = squash(" ".join(" ".join(u["paras"]) for k, u in units.items() if k.startswith("disp-")))
+    eds = {}
     for name, url, drop in (("tcp", t_url, TCP_DROP), ("diputados", d_url, DIP_DROP)):
-        e = articles_by_edition(cpath(url), drop)
-        diffs = []
-        for n in sorted(set(g) | set(e)):
-            if g.get(n) != e.get(n):
-                a, b = g.get(n, ""), e.get(n, "")
-                j = next((i for i in range(min(len(a), len(b))) if a[i] != b[i]), min(len(a), len(b)))
-                diffs.append({"art": n, "gaceta": a[max(0, j - 40): j + 60], name: b[max(0, j - 40): j + 60]})
-        report[f"vs_{name}"] = {"articles": len(e), "differing": len(diffs), "diffs": diffs}
+        e = {f"art-{n:03d}": v for n, v in articles_by_edition(cpath(url), drop).items()}
+        e["disposiciones"] = closing_block(cpath(url), drop)
+        eds[name] = e
+    report["units_compared"] = len(g)
+    report.update(three_way(g, eds))
+    if report["gaceta_alone_words"]:
+        raise SystemExit(f"the Gaceta wording differs from both other editions: {report['gaceta_alone_words']}")
     return out
 
 
@@ -347,8 +391,7 @@ def main():
         tmp.replace(HERE / "corpus.json")  # atomic: autopush builds every corpus.json it sees
     (HERE / "crosscheck.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8",
                                           newline="\n")
-    print(json.dumps({k: (v if not isinstance(v, dict) else {kk: vv for kk, vv in v.items() if kk != "diffs"})
-                      for k, v in report.items()}, ensure_ascii=False))
+    print(json.dumps({k: v for k, v in report.items() if k != "differences"}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

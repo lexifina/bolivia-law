@@ -4,212 +4,580 @@
   "paragraphs_diputados": 7,
   "identical_ignoring_spaces": true
  },
- "articles": 411,
- "vs_tcp": {
-  "articles": 411,
-  "differing": 20,
-  "diffs": [
-   {
-    "art": 12,
-    "gaceta": "nidasenunsoloórganonisondelegablesentresi.",
-    "tcp": "nidasenunsoloórganonisondelegablesentresí."
-   },
-   {
-    "art": 16,
-    "gaceta": "ligacióndegarantizarlaseguridadalimentaría,atravésdeunaalimentaciónsana,adecuadaysuficienteparatodal",
-    "tcp": "ligacióndegarantizarlaseguridadalimentaria,atravésdeunaalimentaciónsana,adecuadaysuficienteparatodal"
-   },
-   {
-    "art": 93,
-    "gaceta": "ndientementedesusrecursosdepartamentales,municipalesypropios,creadosoporcrearse.ii.lasuniversidadesp",
-    "tcp": "ndientementedesusrecursosdepartamentalesmunicipalesypropios,creadosoporcrearse.ii.lasuniversidadespú"
-   },
-   {
-    "art": 108,
-    "gaceta": "pliryhacercumplirlaconstituciónylasleyes2.conocer,respetarypromoverlosderechosreconocidosenlaconstit",
-    "tcp": "pliryhacercumplirlaconstituciónylasleyes.2.conocer,respetarypromoverlosderechosreconocidosenlaconsti"
-   },
-   {
-    "art": 142,
-    "gaceta": "añosenelcasodeextranjerasyextranjerosqueseencuentrenenunadelassituacionessiguientes:1.quetengancónyu",
-    "tcp": "añosenelcasodeextranjerasyextranjerosqueunadelassituacionessiguientes:1.quetengancónyugebolivianaobo"
-   },
-   {
-    "art": 144,
-    "gaceta": "isonciudadanasyciudadanostodaslasbolivianasytodoslosboliviano",
-    "tcp": "i.sonciudadanasyciudadanostodaslasbolivianasytodoslosbolivian"
-   },
-   {
-    "art": 150,
-    "gaceta": "conelpropósitodedesempeñarotrasfunciones",
-    "tcp": "conelpropósitodedesempeñarotrasfunciones."
-   },
-   {
-    "art": 156,
-    "gaceta": "yreelectosporunasolavezdemaneracontinua..",
-    "tcp": "yreelectosporunasolavezdemaneracontinua."
-   },
-   {
-    "art": 178,
-    "gaceta": "ñodelosjuecesdeacuerdoalacarrerajudicial2.laautonomíapresupuestariadelosórganosjudiciales.",
-    "tcp": "ñodelosjuecesdeacuerdoalacarrerajudicial.2.laautonomíapresupuestariadelosórganosjudiciales."
-   },
-   {
-    "art": 182,
-    "gaceta": "dasyelegidosmediantesufragiouniversal.iilaasamblealegislativaplurinacionalefectuarápordosterciosdesu",
-    "tcp": "dasyelegidosmediantesufragiouniversal.ii.laasamblealegislativaplurinacionalefectuarápordosterciosdes"
-   },
-   {
-    "art": 298,
-    "gaceta": ".políticaeconómicayplanificaciónnacionalii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régim",
-    "tcp": ".políticaeconómicayplanificaciónnacional.ii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régi"
-   },
-   {
-    "art": 299,
-    "gaceta": "lecomunicaciones.3.electrificaciónurbana4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmarc",
-    "tcp": "lecomunicaciones.3.electrificaciónurbana.4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmar"
-   },
-   {
-    "art": 300,
-    "gaceta": "omovereldesarrollohumanoensujurisdicción3.iniciativayconvocatoriadeconsultasyreferendosdepartamental",
-    "tcp": "omovereldesarrollohumanoensujurisdicción.3.iniciativayconvocatoriadeconsultasyreferendosdepartamenta"
-   },
-   {
-    "art": 302,
-    "gaceta": "smunicipalesenlasmateriasdesucompetencia4.promocióndelempleoymejoradelascondicioneslaboralesenelmarc",
-    "tcp": "smunicipalesenlasmateriasdesucompetencia.4.promocióndelempleoymejoradelascondicioneslaboralesenelmar"
-   },
-   {
-    "art": 304,
-    "gaceta": "yadministracióndesussistemasdemicroriego19.fomentoydesarrollodesuvocaciónproductiva.20.construcción,",
-    "tcp": "yadministracióndesussistemasdemicroriego.19.fomentoydesarrollodesuvocaciónproductiva.20.construcción"
-   },
-   {
-    "art": 316,
-    "gaceta": "roldelossectoresestratégicosdelaeconomía4.participardirectamenteenlaeconomíamedianteelincentivoylapr",
-    "tcp": "roldelossectoresestratégicosdelaeconomía.4.participardirectamenteenlaeconomíamedianteelincentivoylap"
-   },
-   {
-    "art": 339,
-    "gaceta": "icioscuyaparalizacióncausaríagravesdañoslosgastosdestinadosaestosfinesnoexcederándelunoporcientodelt",
-    "tcp": "icioscuyaparalizacióncausaríagravesdaños.losgastosdestinadosaestosfinesnoexcederándelunoporcientodel"
-   },
-   {
-    "art": 390,
-    "gaceta": "dadexistente,recursoshídricosyporlasecoregiones.ii.laamazoniabolivianacomprendelatotalidaddeldeparta",
-    "tcp": "dadexistente,recursoshídricosyporlasecorregiones.ii.laamazoniabolivianacomprendelatotalidaddeldepart"
-   },
-   {
-    "art": 402,
-    "gaceta": "esoalaeducación,salud,seguridadalimentaríayproducción,enelmarcodelordenamientoterritorialdelestadoyl",
-    "tcp": "esoalaeducación,salud,seguridadalimentariayproducción,enelmarcodelordenamientoterritorialdelestadoyl"
-   },
-   {
-    "art": 410,
-    "gaceta": "cadelestado.2.lostratadosinternacionales3.lasleyesnacionales,losestatutosautonómicos,lascartasorgáni",
-    "tcp": "cadelestado.2.lostratadosinternacionales.3.lasleyesnacionales,losestatutosautonómicos,lascartasorgán"
-   }
-  ]
+ "units_compared": 412,
+ "gaceta_alone_words": [],
+ "gaceta_alone_punctuation": 47,
+ "differences_in_one_other_edition_only": {
+  "tcp": 9,
+  "diputados": 7
  },
- "vs_diputados": {
-  "articles": 411,
-  "differing": 19,
-  "diffs": [
-   {
-    "art": 5,
-    "gaceta": "u,itonama,leco,machajuyai-kallawaya,machineri,maropa,mojeño-trinitario,mojeño-ignaciano,moré,mosetén",
-    "diputados": "u,itonama,leco,machajuyai-kallawaya,macheneri,maropa,mojeño-trinitario,mojeño-ignaciano,moré,mosetén"
-   },
-   {
-    "art": 20,
-    "gaceta": "lcantarilladoconstituyenderechoshumanos,nosonobjetodeconcesiónniprivatizaciónyestánsujetosarégimende",
-    "diputados": "lcantarilladoconstituyenderechoshumanos,20nosonobjetodeconcesiónniprivatizaciónyestánsujetosarégimen"
-   },
-   {
-    "art": 108,
-    "gaceta": "pliryhacercumplirlaconstituciónylasleyes2.conocer,respetarypromoverlosderechosreconocidosenlaconstit",
-    "diputados": "pliryhacercumplirlaconstituciónylasleyes.2.conocer,respetarypromoverlosderechosreconocidosenlaconsti"
-   },
-   {
-    "art": 144,
-    "gaceta": "isonciudadanasyciudadanostodaslasbolivianasytodoslosboliviano",
-    "diputados": "i.sonciudadanasyciudadanostodaslasbolivianasytodoslosbolivian"
-   },
-   {
-    "art": 150,
-    "gaceta": "conelpropósitodedesempeñarotrasfunciones",
-    "diputados": "conelpropósitodedesempeñarotrasfunciones."
-   },
-   {
-    "art": 156,
-    "gaceta": "yreelectosporunasolavezdemaneracontinua..",
-    "diputados": "yreelectosporunasolavezdemaneracontinua."
-   },
-   {
-    "art": 169,
-    "gaceta": "lsenado,yafaltadeéstaoésteporlapresidenteoelpresidentedelacámaradediputados.enesteúltimocaso,seconvo",
-    "diputados": "lsenado,yafaltadeéstaoésteporlapresidentaoelpresidentedelacámaradediputados.enesteúltimocaso,seconvo"
-   },
-   {
-    "art": 178,
-    "gaceta": "ñodelosjuecesdeacuerdoalacarrerajudicial2.laautonomíapresupuestariadelosórganosjudiciales.",
-    "diputados": "ñodelosjuecesdeacuerdoalacarrerajudicial.2.laautonomíapresupuestariadelosórganosjudiciales."
-   },
-   {
-    "art": 182,
-    "gaceta": "dasyelegidosmediantesufragiouniversal.iilaasamblealegislativaplurinacionalefectuarápordosterciosdesu",
-    "diputados": "dasyelegidosmediantesufragiouniversal.ii.laasamblealegislativaplurinacionalefectuarápordosterciosdes"
-   },
-   {
-    "art": 211,
-    "gaceta": "mediantenormasyprocedimientospropios,sedeestrictocumplimientoalanormativadeesospueblosynaciones.",
-    "diputados": "mediantenormasyprocedimientospropios,sedéestrictocumplimientoalanormativadeesospueblosynaciones."
-   },
-   {
-    "art": 284,
-    "gaceta": "osmunicipiosdondeexistannacionesopueblosindígenaoriginariocampesinos,quenoconstituyanunaautonomíaind",
-    "diputados": "osmunicipiosdondeexistannacionesopueblos_indígenaoriginariocampesinos,quenoconstituyanunaautonomíain"
-   },
-   {
-    "art": 298,
-    "gaceta": ".políticaeconómicayplanificaciónnacionalii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régim",
-    "diputados": ".políticaeconómicayplanificaciónnacional.ii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régi"
-   },
-   {
-    "art": 299,
-    "gaceta": "lecomunicaciones.3.electrificaciónurbana4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmarc",
-    "diputados": "lecomunicaciones.3.electrificaciónurbana.4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmar"
-   },
-   {
-    "art": 300,
-    "gaceta": "omovereldesarrollohumanoensujurisdicción3.iniciativayconvocatoriadeconsultasyreferendosdepartamental",
-    "diputados": "omovereldesarrollohumanoensujurisdicción.3.iniciativayconvocatoriadeconsultasyreferendosdepartamenta"
-   },
-   {
-    "art": 302,
-    "gaceta": "smunicipalesenlasmateriasdesucompetencia4.promocióndelempleoymejoradelascondicioneslaboralesenelmarc",
-    "diputados": "smunicipalesenlasmateriasdesucompetencia.4.promocióndelempleoymejoradelascondicioneslaboralesenelmar"
-   },
-   {
-    "art": 304,
-    "gaceta": "yadministracióndesussistemasdemicroriego19.fomentoydesarrollodesuvocaciónproductiva.20.construcción,",
-    "diputados": "yadministracióndesussistemasdemicroriego.19.fomentoydesarrollodesuvocaciónproductiva.20.construcción"
-   },
-   {
-    "art": 316,
-    "gaceta": "roldelossectoresestratégicosdelaeconomía4.participardirectamenteenlaeconomíamedianteelincentivoylapr",
-    "diputados": "roldelossectoresestratégicosdelaeconomía.4.participardirectamenteenlaeconomíamedianteelincentivoylap"
-   },
-   {
-    "art": 402,
-    "gaceta": "elestadotienelaobligaciónde:1.fomentarplanesdeasentamientoshumanosparaalcanzarunaraciona",
-    "diputados": "elestadotienelaobligaciónde:i.fomentarplanesdeasentamientoshumanosparaalcanzarunaraciona"
-   },
-   {
-    "art": 410,
-    "gaceta": "cadelestado.2.lostratadosinternacionales3.lasleyesnacionales,losestatutosautonómicos,lascartasorgáni",
-    "diputados": "cadelestado.2.lostratadosinternacionales.3.lasleyesnacionales,losestatutosautonómicos,lascartasorgán"
-   }
-  ]
- }
+ "differences": [
+  {
+   "unit": "art-005",
+   "who": "diputados",
+   "class": "wording",
+   "context": "leco,machajuyai-kallawaya,mach",
+   "gaceta": "i",
+   "other": "e",
+   "after": "neri,maropa,moj"
+  },
+  {
+   "unit": "art-012",
+   "who": "tcp",
+   "class": "wording",
+   "context": "oloórganonisondelegablesentres",
+   "gaceta": "i",
+   "other": "í",
+   "after": "."
+  },
+  {
+   "unit": "art-016",
+   "who": "tcp",
+   "class": "wording",
+   "context": "garantizarlaseguridadalimentar",
+   "gaceta": "í",
+   "other": "i",
+   "after": "a,atravésdeunaa"
+  },
+  {
+   "unit": "art-020",
+   "who": "diputados",
+   "class": "wording",
+   "context": "adoconstituyenderechoshumanos,",
+   "gaceta": "",
+   "other": "20",
+   "after": "nosonobjetodeco"
+  },
+  {
+   "unit": "art-093",
+   "who": "tcp",
+   "class": "punctuation",
+   "context": "tedesusrecursosdepartamentales",
+   "gaceta": ",",
+   "other": "",
+   "after": "municipalesypro"
+  },
+  {
+   "unit": "art-108",
+   "who": "both",
+   "class": "punctuation",
+   "context": "cumplirlaconstituciónylasleyes",
+   "gaceta": "",
+   "other": ".",
+   "after": "2.conocer,respe"
+  },
+  {
+   "unit": "art-142",
+   "who": "tcp",
+   "class": "wording",
+   "context": "sodeextranjerasyextranjerosque",
+   "gaceta": "seencuentrenen",
+   "other": "",
+   "after": "unadelassituaci"
+  },
+  {
+   "unit": "art-144",
+   "who": "both",
+   "class": "punctuation",
+   "context": "i",
+   "gaceta": "",
+   "other": ".",
+   "after": "sonciudadanasyc"
+  },
+  {
+   "unit": "art-144",
+   "who": "both",
+   "class": "punctuation",
+   "context": "excepcionesestablecidasenlaley",
+   "gaceta": "",
+   "other": ".",
+   "after": "iii.losderechos"
+  },
+  {
+   "unit": "art-150",
+   "who": "both",
+   "class": "punctuation",
+   "context": "sitodedesempeñarotrasfunciones",
+   "gaceta": "",
+   "other": ".",
+   "after": ""
+  },
+  {
+   "unit": "art-156",
+   "who": "both",
+   "class": "punctuation",
+   "context": "porunasolavezdemaneracontinua.",
+   "gaceta": ".",
+   "other": "",
+   "after": ""
+  },
+  {
+   "unit": "art-169",
+   "who": "diputados",
+   "class": "wording",
+   "context": "faltadeéstaoésteporlapresident",
+   "gaceta": "e",
+   "other": "a",
+   "after": "oelpresidentede"
+  },
+  {
+   "unit": "art-178",
+   "who": "both",
+   "class": "punctuation",
+   "context": "cesdeacuerdoalacarrerajudicial",
+   "gaceta": "",
+   "other": ".",
+   "after": "2.laautonomíapr"
+  },
+  {
+   "unit": "art-182",
+   "who": "both",
+   "class": "punctuation",
+   "context": "osmediantesufragiouniversal.ii",
+   "gaceta": "",
+   "other": ".",
+   "after": "laasamblealegis"
+  },
+  {
+   "unit": "art-211",
+   "who": "diputados",
+   "class": "wording",
+   "context": "rmasyprocedimientospropios,sed",
+   "gaceta": "e",
+   "other": "é",
+   "after": "estrictocumplim"
+  },
+  {
+   "unit": "art-284",
+   "who": "diputados",
+   "class": "wording",
+   "context": "osdondeexistannacionesopueblos",
+   "gaceta": "",
+   "other": "_",
+   "after": "indígenaorigina"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "conómicayplanificaciónnacional",
+   "gaceta": "",
+   "other": ".",
+   "after": "ii.soncompetenc"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "nterésdelnivelcentraldelestado",
+   "gaceta": "",
+   "other": ".",
+   "after": "12.elaboracióny"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "casdelsistemadeeducaciónysalud",
+   "gaceta": "",
+   "other": ".",
+   "after": "18.sistemadeder"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "atastrorural.23.políticafiscal",
+   "gaceta": "",
+   "other": ".",
+   "after": "24.administraci"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "cal24.administracióndejusticia",
+   "gaceta": "",
+   "other": ".",
+   "after": "25.promocióndel"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "29.asentamientoshumanosrurales",
+   "gaceta": "",
+   "other": ".",
+   "after": "30.políticasdes"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "30.políticasdeserviciosbásicos",
+   "gaceta": "",
+   "other": ".",
+   "after": "31.políticasyré"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "s31.políticasyrégimenlaborales",
+   "gaceta": "",
+   "other": ".",
+   "after": "32.transporte,t"
+  },
+  {
+   "unit": "art-298",
+   "who": "tcp",
+   "class": "wording",
+   "context": "o,fluvialyotroscuandoalcanceam",
+   "gaceta": "a",
+   "other": "á",
+   "after": "sdeundepartamen"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "torialyordenamientoterritorial",
+   "gaceta": "",
+   "other": ".",
+   "after": "34.deudapública"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "34.deudapúblicainternayexterna",
+   "gaceta": "",
+   "other": ".",
+   "after": "35.políticasgen"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "eneralesdedesarrolloproductivo",
+   "gaceta": "",
+   "other": ".",
+   "after": "36.políticasgen"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "6.políticasgeneralesdevivienda",
+   "gaceta": "",
+   "other": ".",
+   "after": "37.políticasgen"
+  },
+  {
+   "unit": "art-298",
+   "who": "both",
+   "class": "punctuation",
+   "context": "37.políticasgeneralesdeturismo",
+   "gaceta": "",
+   "other": ".",
+   "after": "38.régimendelat"
+  },
+  {
+   "unit": "art-299",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ciones.3.electrificaciónurbana",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.juegosdeloter"
+  },
+  {
+   "unit": "art-299",
+   "who": "both",
+   "class": "punctuation",
+   "context": "eytratamientoderesiduossólidos",
+   "gaceta": "",
+   "other": ".",
+   "after": "10.proyectosder"
+  },
+  {
+   "unit": "art-299",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ministracióndepuertosfluviales",
+   "gaceta": "",
+   "other": ".",
+   "after": "13.seguridadciu"
+  },
+  {
+   "unit": "art-299",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ricultura,ganadería,cazaypesca",
+   "gaceta": "",
+   "other": ".",
+   "after": ""
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "sarrollohumanoensujurisdicción",
+   "gaceta": "",
+   "other": ".",
+   "after": "3.iniciativayco"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "esenlasmateriasdesucompetencia",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.promocióndele"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "11.estadísticasdepartamentales",
+   "gaceta": "",
+   "other": ".",
+   "after": "12.otorgarperso"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "orteenelámbitodesujurisdicción",
+   "gaceta": "",
+   "other": ".",
+   "after": "18.promociónyco"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "óndecultura,patrimoniocultural",
+   "gaceta": ".",
+   "other": ",",
+   "after": "histórico,artís"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "spolíticaseconómicasnacionales",
+   "gaceta": "",
+   "other": ".",
+   "after": "35.planificació"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "nciaconlaplanificaciónnacional",
+   "gaceta": "",
+   "other": ".",
+   "after": "36.administraci"
+  },
+  {
+   "unit": "art-300",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ticamentealtesorodepartamental",
+   "gaceta": "",
+   "other": ".",
+   "after": "ii.losestatutos"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "esenlasmateriasdesucompetencia",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.promocióndele"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "nasilvestreyanimalesdomésticos",
+   "gaceta": "",
+   "other": ".",
+   "after": "6.elaboraciónde"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ales.9.estadísticasmunicipales",
+   "gaceta": "",
+   "other": ".",
+   "after": "10.catastrourba"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "orteenelámbitodesujurisdicción",
+   "gaceta": "",
+   "other": ".",
+   "after": "15.promociónyco"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "nico,jurídicoydeinteréspúblico",
+   "gaceta": "",
+   "other": ".",
+   "after": "23.elaborar,apr"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "icasenelámbitodesujurisdicción",
+   "gaceta": "",
+   "other": ".",
+   "after": "32.espectáculos"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "iocampesinos,cuandocorresponda",
+   "gaceta": "",
+   "other": ".",
+   "after": "42.planificació"
+  },
+  {
+   "unit": "art-302",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ficacióndepartamentalynacional",
+   "gaceta": "",
+   "other": ".",
+   "after": "43.participaren"
+  },
+  {
+   "unit": "art-304",
+   "who": "both",
+   "class": "punctuation",
+   "context": "acióndesussistemasdemicroriego",
+   "gaceta": "",
+   "other": ".",
+   "after": "19.fomentoydesa"
+  },
+  {
+   "unit": "art-304",
+   "who": "both",
+   "class": "punctuation",
+   "context": "es,biodiversidadymedioambiente",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.sistemasderie"
+  },
+  {
+   "unit": "art-304",
+   "who": "both",
+   "class": "punctuation",
+   "context": "óndecaminosvecinalesycomunales",
+   "gaceta": "",
+   "other": ".",
+   "after": "7.promocióndela"
+  },
+  {
+   "unit": "art-316",
+   "who": "both",
+   "class": "punctuation",
+   "context": "ctoresestratégicosdelaeconomía",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.participardir"
+  },
+  {
+   "unit": "art-316",
+   "who": "both",
+   "class": "punctuation",
+   "context": "controloligopólicodelaeconomía",
+   "gaceta": "",
+   "other": ".",
+   "after": "5.promoverlaint"
+  },
+  {
+   "unit": "art-339",
+   "who": "tcp",
+   "class": "punctuation",
+   "context": "aralizacióncausaríagravesdaños",
+   "gaceta": "",
+   "other": ".",
+   "after": "losgastosdestin"
+  },
+  {
+   "unit": "art-390",
+   "who": "tcp",
+   "class": "wording",
+   "context": "nte,recursoshídricosyporlaseco",
+   "gaceta": "",
+   "other": "r",
+   "after": "regiones.ii.laa"
+  },
+  {
+   "unit": "art-402",
+   "who": "diputados",
+   "class": "wording",
+   "context": "elestadotienelaobligaciónde:",
+   "gaceta": "1",
+   "other": "i",
+   "after": ".fomentarplanes"
+  },
+  {
+   "unit": "art-402",
+   "who": "tcp",
+   "class": "wording",
+   "context": "ación,salud,seguridadalimentar",
+   "gaceta": "í",
+   "other": "i",
+   "after": "ayproducción,en"
+  },
+  {
+   "unit": "art-402",
+   "who": "diputados",
+   "class": "wording",
+   "context": "aconservacióndelmedioambiente.",
+   "gaceta": "2",
+   "other": "ii",
+   "after": ".promoverpolíti"
+  },
+  {
+   "unit": "art-410",
+   "who": "both",
+   "class": "punctuation",
+   "context": "o.2.lostratadosinternacionales",
+   "gaceta": "",
+   "other": ".",
+   "after": "3.lasleyesnacio"
+  },
+  {
+   "unit": "art-410",
+   "who": "both",
+   "class": "punctuation",
+   "context": "partamental,municipaleindígena",
+   "gaceta": "",
+   "other": ".",
+   "after": "4.losdecretos,r"
+  },
+  {
+   "unit": "disposiciones",
+   "who": "tcp",
+   "class": "wording",
+   "context": "reconoceyrespetalosderechospre",
+   "gaceta": "-",
+   "other": "",
+   "after": "constituidosdel"
+  }
+ ]
 }
