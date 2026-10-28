@@ -81,7 +81,8 @@ def pdf_lines(path: Path, drop: list[re.Pattern]) -> list[tuple[int, str]]:
 ORD = ["Primera", "Segunda", "Tercera", "Cuarta", "Quinta", "Sexta", "Séptima", "Octava", "Novena", "Décima"]
 RE_ART = re.compile(r"^(?:Artículo|ARTÍCULO)\s+(\d+)\s*[.°º]?\s*(.*)$")
 RE_NUM = re.compile(r"^((?:[IVX]+|\d+)\.)(?:\s+(.*))?$")
-RE_HEAD = re.compile(r"^(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA) PARTE$|^(TÍTULO|CAPÍTULO|SECCIÓN)\b.*$")
+RE_HEAD = re.compile(r"^(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA) PARTE$|^(T[IÍ]TULO|CAP[IÍ]TULO|SECCI[OÓ]N)\b.*$")
+RE_LONE_ROMAN = re.compile(r"^[IVX]{1,4}$")  # a numeral the Gaceta printed without its period (arts. 144, 182)
 RE_TRANS = re.compile(r"^(" + "|".join(ORD) + r")\.\s*(.*)$")
 
 
@@ -190,6 +191,10 @@ def parse_cpe_gaceta(path: Path) -> dict:
             zone = "closing"
             closing.append(t)
             continue
+        if RE_LONE_ROMAN.match(t):
+            pending_num = t
+            prev_block = blk
+            continue
         m = RE_NUM.match(t)
         if m:
             if m.group(2):
@@ -246,7 +251,12 @@ DIP_DROP = [re.compile(p) for p in (r"CONSTITUCIÓN POLÍTICA DEL ESTADO", r"LEG
 
 def articles_by_edition(path: Path, drop) -> dict[int, str]:
     """Edition text split at article headings (for the cross-check only): squashed text per article."""
-    lines = [t for _, t in pdf_lines(path, drop)]
+    lines = []
+    for _, t in pdf_lines(path, drop):
+        if lines and lines[-1] in ("Artículo", "ARTÍCULO"):  # heading split over two lines (TCP art. 353)
+            lines[-1] = f"{lines[-1]} {t}"
+        else:
+            lines.append(t)
     arts: dict[int, list[str]] = {}
     cur = None
     for t in lines:
