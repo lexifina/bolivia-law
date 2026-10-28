@@ -357,6 +357,25 @@ def build_constitution(report: dict) -> dict:
     return out
 
 
+
+def crosscheck_decisions(r: dict) -> list[str]:
+    """The cross-check's result as decisions, so REPRODUCE.md prints it (computed from the cache, deterministic)."""
+    one = [d for d in r["differences"] if d["who"] != "both" and d["class"] == "wording"]
+    alone = sorted({d["unit"] for d in r["differences"] if d["who"] == "both"})
+    lab = lambda k: f"art. {int(k[4:])}" if k.startswith("art-") else "closing provisions"
+    return [
+        f"Cross-check of {r['units_compared']} units (every article, and the closing provisions as one block) against "
+        "the TCP and Diputados editions: the Gaceta wording agrees with at least one of them everywhere "
+        f"({len(r['gaceta_alone_words'])} units where both disagree with it).",
+        f"{len(one)} wording differences occur in one other edition only (shown without spaces as "
+        "...context[Gaceta>other]context...): " + "; ".join(
+            f"{lab(d['unit'])}, {d['who']}: ...{d['context'][-12:]}[{d['gaceta']}>{d['other']}]{d['after'][:8]}..."
+            for d in one) + ".",
+        f"In {r['gaceta_alone_punctuation']} places, in " + ", ".join(lab(k) for k in alone) +
+        ", both other editions print punctuation the Gaceta text lacks (mostly a period after a list item); the "
+        "Gaceta text is kept as printed.",
+    ]
+
 # ------------------------------------------------------------------ corpus
 
 def main():
@@ -382,7 +401,7 @@ def main():
         "laws": M.LAWS,
         "acts": acts,
         "applies": [],
-        "decisions": M.DECISIONS,
+        "decisions": M.DECISIONS + crosscheck_decisions(report),
         "ai_use": M.AI_USE,
     }
     if "--dry" not in sys.argv:  # --dry: write only crosscheck.json
