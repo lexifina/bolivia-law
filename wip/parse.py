@@ -223,9 +223,10 @@ def parse_cpe_gaceta(path: Path) -> dict:
 
 def preamble_from(path: Path, drop: list[re.Pattern]) -> list[str]:
     lines = [t for _, t in pdf_lines(path, drop)]
-    i = lines.index("PREÁMBULO")
+    # The preamble's first words; its heading can come later in reading order (TCP edition) or in the index.
+    i = next(k for k, t in enumerate(lines) if t.startswith("En tiempos inmemoriales"))
     out, buf = [], []
-    for t in lines[i + 1:]:
+    for t in lines[i:]:
         if t == "PREÁMBULO":
             continue
         if t.startswith(("EVO MORALES", "CONSTITUCIÓN POLÍTICA DEL ESTADO", "PRIMERA PARTE")):
@@ -307,12 +308,19 @@ def build_constitution(report: dict) -> dict:
 def main():
     report: dict = {}
     cpe_units = build_constitution(report)
+    versions = [{"from": "2009-02-07", "source_url": M.CPE_GACETA, "sha256": sha(M.CPE_GACETA),
+                 "units": cpe_units, "credits": {}, "note": M.CPE_NOTE}]
+    # Events that changed no words: the same text as a version of their own day, credited to the provisions concerned.
+    for law, day, provs in M.CPE_EVENTS:
+        missing = [k for k in provs if k not in cpe_units]
+        if missing:
+            raise SystemExit(f"{law}: unknown provisions {missing}")
+        versions.append({"from": day, "source_url": M.CPE_GACETA, "sha256": sha(M.CPE_GACETA),
+                         "units": cpe_units, "credits": {k: [law] for k in provs}})
     acts = [{
         "slug": "constitucion", "short": "CPE", "title": "Constitución Política del Estado",
         "url": M.CPE_GACETA_PAGE, "first_law": "cpe-2009", "earlier_laws": [],
-        "versions": [{"from": "2009-02-07", "source_url": M.CPE_GACETA, "sha256": sha(M.CPE_GACETA),
-                      "units": cpe_units, "credits": {},
-                      "note": M.CPE_NOTE}],
+        "versions": versions,
     }]
     corpus = {
         "country": M.COUNTRY,
@@ -323,8 +331,10 @@ def main():
         "decisions": M.DECISIONS,
         "ai_use": M.AI_USE,
     }
-    (HERE / "corpus.json").write_text(json.dumps(corpus, ensure_ascii=False, indent=1, sort_keys=False) + "\n",
-                                      encoding="utf-8", newline="\n")
+    if "--dry" not in sys.argv:  # --dry: write only crosscheck.json
+        tmp = HERE / "corpus.json.tmp"
+        tmp.write_text(json.dumps(corpus, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+        tmp.replace(HERE / "corpus.json")  # atomic: autopush builds every corpus.json it sees
     (HERE / "crosscheck.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8",
                                           newline="\n")
     print(json.dumps({k: (v if not isinstance(v, dict) else {kk: vv for kk, vv in v.items() if kk != "diffs"})

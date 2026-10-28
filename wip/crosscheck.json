@@ -1,0 +1,520 @@
+{
+ "preamble": {
+  "paragraphs_tcp": 7,
+  "paragraphs_diputados": 7,
+  "identical_ignoring_spaces": true
+ },
+ "articles": 411,
+ "vs_tcp": {
+  "articles": 352,
+  "differing": 79,
+  "diffs": [
+   {
+    "art": 12,
+    "gaceta": "nidasenunsoloórganonisondelegablesentresi.",
+    "tcp": "nidasenunsoloórganonisondelegablesentresí."
+   },
+   {
+    "art": 16,
+    "gaceta": "ligacióndegarantizarlaseguridadalimentaría,atravésdeunaalimentaciónsana,adecuadaysuficienteparatodal",
+    "tcp": "ligacióndegarantizarlaseguridadalimentaria,atravésdeunaalimentaciónsana,adecuadaysuficienteparatodal"
+   },
+   {
+    "art": 93,
+    "gaceta": "ndientementedesusrecursosdepartamentales,municipalesypropios,creadosoporcrearse.ii.lasuniversidadesp",
+    "tcp": "ndientementedesusrecursosdepartamentalesmunicipalesypropios,creadosoporcrearse.ii.lasuniversidadespú"
+   },
+   {
+    "art": 108,
+    "gaceta": "pliryhacercumplirlaconstituciónylasleyes2.conocer,respetarypromoverlosderechosreconocidosenlaconstit",
+    "tcp": "pliryhacercumplirlaconstituciónylasleyes.2.conocer,respetarypromoverlosderechosreconocidosenlaconsti"
+   },
+   {
+    "art": 142,
+    "gaceta": "añosenelcasodeextranjerasyextranjerosqueseencuentrenenunadelassituacionessiguientes:1.quetengancónyu",
+    "tcp": "añosenelcasodeextranjerasyextranjerosqueunadelassituacionessiguientes:1.quetengancónyugebolivianaobo"
+   },
+   {
+    "art": 143,
+    "gaceta": "igadosarenunciarasunacionalidaddeorigen.capituloiiciudadanía",
+    "tcp": "igadosarenunciarasunacionalidaddeorigen."
+   },
+   {
+    "art": 144,
+    "gaceta": "isonciudadanasyciudadanostodaslasbolivianasytodoslosboliviano",
+    "tcp": "i.sonciudadanasyciudadanostodaslasbolivianasytodoslosbolivian"
+   },
+   {
+    "art": 150,
+    "gaceta": "conelpropósitodedesempeñarotrasfunciones",
+    "tcp": "conelpropósitodedesempeñarotrasfunciones."
+   },
+   {
+    "art": 156,
+    "gaceta": "yreelectosporunasolavezdemaneracontinua..",
+    "tcp": "yreelectosporunasolavezdemaneracontinua."
+   },
+   {
+    "art": 178,
+    "gaceta": "ñodelosjuecesdeacuerdoalacarrerajudicial2.laautonomíapresupuestariadelosórganosjudiciales.",
+    "tcp": "ñodelosjuecesdeacuerdoalacarrerajudicial.2.laautonomíapresupuestariadelosórganosjudiciales."
+   },
+   {
+    "art": 182,
+    "gaceta": "dasyelegidosmediantesufragiouniversal.iilaasamblealegislativaplurinacionalefectuarápordosterciosdesu",
+    "tcp": "dasyelegidosmediantesufragiouniversal.ii.laasamblealegislativaplurinacionalefectuarápordosterciosdes"
+   },
+   {
+    "art": 212,
+    "gaceta": "nacircunscripciónelectoralalmismotiempo.titulovfuncionesdecontrol,dedefensadelasociedadydedefensadel",
+    "tcp": "nacircunscripciónelectoralalmismotiempo."
+   },
+   {
+    "art": 298,
+    "gaceta": ".políticaeconómicayplanificaciónnacionalii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régim",
+    "tcp": ".políticaeconómicayplanificaciónnacional.ii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régi"
+   },
+   {
+    "art": 299,
+    "gaceta": "lecomunicaciones.3.electrificaciónurbana4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmarc",
+    "tcp": "lecomunicaciones.3.electrificaciónurbana.4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmar"
+   },
+   {
+    "art": 300,
+    "gaceta": "omovereldesarrollohumanoensujurisdicción3.iniciativayconvocatoriadeconsultasyreferendosdepartamental",
+    "tcp": "omovereldesarrollohumanoensujurisdicción.3.iniciativayconvocatoriadeconsultasyreferendosdepartamenta"
+   },
+   {
+    "art": 302,
+    "gaceta": "smunicipalesenlasmateriasdesucompetencia4.promocióndelempleoymejoradelascondicioneslaboralesenelmarc",
+    "tcp": "smunicipalesenlasmateriasdesucompetencia.4.promocióndelempleoymejoradelascondicioneslaboralesenelmar"
+   },
+   {
+    "art": 304,
+    "gaceta": "yadministracióndesussistemasdemicroriego19.fomentoydesarrollodesuvocaciónproductiva.20.construcción,",
+    "tcp": "yadministracióndesussistemasdemicroriego.19.fomentoydesarrollodesuvocaciónproductiva.20.construcción"
+   },
+   {
+    "art": 316,
+    "gaceta": "roldelossectoresestratégicosdelaeconomía4.participardirectamenteenlaeconomíamedianteelincentivoylapr",
+    "tcp": "roldelossectoresestratégicosdelaeconomía.4.participardirectamenteenlaeconomíamedianteelincentivoylap"
+   },
+   {
+    "art": 339,
+    "gaceta": "icioscuyaparalizacióncausaríagravesdañoslosgastosdestinadosaestosfinesnoexcederándelunoporcientodelt",
+    "tcp": "icioscuyaparalizacióncausaríagravesdaños.losgastosdestinadosaestosfinesnoexcederándelunoporcientodel"
+   },
+   {
+    "art": 352,
+    "gaceta": "spetandosusnormasyprocedimientospropios.",
+    "tcp": "spetandosusnormasyprocedimientospropios.artículo353.elpueblobolivianotendráaccesoequitativoalosbenef"
+   },
+   {
+    "art": 353,
+    "gaceta": "elpueblobolivianotendráaccesoequitativoalosbeneficiosproveni",
+    "tcp": ""
+   },
+   {
+    "art": 354,
+    "gaceta": "elestadodesarrollaráypromoverálainvestigaciónrelativaalmanej",
+    "tcp": ""
+   },
+   {
+    "art": 355,
+    "gaceta": "i.laindustrializaciónycomercializacióndelosrecursosnaturales",
+    "tcp": ""
+   },
+   {
+    "art": 356,
+    "gaceta": "lasactividadesdeexploración,explotación,refinación,industria",
+    "tcp": ""
+   },
+   {
+    "art": 357,
+    "gaceta": "porserpropiedadsocialdelpuebloboliviano,ningunapersonaniempr",
+    "tcp": ""
+   },
+   {
+    "art": 358,
+    "gaceta": "losderechosdeusoyaprovechamientosobrelosrecursosnaturalesdeb",
+    "tcp": ""
+   },
+   {
+    "art": 359,
+    "gaceta": "i.loshidrocarburos,cualquieraseaelestadoenqueseencuentrenola",
+    "tcp": ""
+   },
+   {
+    "art": 360,
+    "gaceta": "elestadodefinirálapolíticadehidrocarburos,promoverásudesarro",
+    "tcp": ""
+   },
+   {
+    "art": 361,
+    "gaceta": "i.yacimientospetrolíferosfiscalesbolivianos(ypfb)esunaempres",
+    "tcp": ""
+   },
+   {
+    "art": 362,
+    "gaceta": "i.seautorizaaypfbsuscribircontratos,bajoelrégimendeprestació",
+    "tcp": ""
+   },
+   {
+    "art": 363,
+    "gaceta": "i.laempresabolivianadeindustrializacióndehidrocarburos(ebih)",
+    "tcp": ""
+   },
+   {
+    "art": 364,
+    "gaceta": "ypfb,ennombreyrepresentacióndelestadoboliviano,operaráyejerc",
+    "tcp": ""
+   },
+   {
+    "art": 365,
+    "gaceta": "unainstituciónautárquicadederechopúblico,conautonomíadegesti",
+    "tcp": ""
+   },
+   {
+    "art": 366,
+    "gaceta": "todaslasempresasextranjerasquerealicenactividadesenlacadenap",
+    "tcp": ""
+   },
+   {
+    "art": 367,
+    "gaceta": "laexplotación,consumoycomercializacióndeloshidrocarburosysus",
+    "tcp": ""
+   },
+   {
+    "art": 368,
+    "gaceta": "losdepartamentosproductoresdehidrocarburospercibiránunaregal",
+    "tcp": ""
+   },
+   {
+    "art": 369,
+    "gaceta": "i.elestadoseráresponsabledelasriquezasmineralógicasqueseencu",
+    "tcp": ""
+   },
+   {
+    "art": 370,
+    "gaceta": "i.elestadootorgaráderechosminerosentodalacadenaproductiva,su",
+    "tcp": ""
+   },
+   {
+    "art": 371,
+    "gaceta": "i.lasáreasdeexplotaciónmineraotorgadasporcontratosonintransf",
+    "tcp": ""
+   },
+   {
+    "art": 372,
+    "gaceta": "i.pertenecenalpatrimoniodelpueblolosgruposminerosnacionaliza",
+    "tcp": ""
+   },
+   {
+    "art": 373,
+    "gaceta": "i.elaguaconstituyeunderechofundamentalísimoparalavida,enelma",
+    "tcp": ""
+   },
+   {
+    "art": 374,
+    "gaceta": "i.elestadoprotegeráygarantizaráelusoprioritariodelaguaparala",
+    "tcp": ""
+   },
+   {
+    "art": 375,
+    "gaceta": "i.esdeberdelestadodesarrollarplanesdeuso,conservación,manejo",
+    "tcp": ""
+   },
+   {
+    "art": 376,
+    "gaceta": "losrecursoshídricosdelosríos,lagosylagunasqueconformanlascue",
+    "tcp": ""
+   },
+   {
+    "art": 377,
+    "gaceta": "i.todotratadointernacionalquesuscribaelestadosobrelosrecurso",
+    "tcp": ""
+   },
+   {
+    "art": 378,
+    "gaceta": "i.lasdiferentesformasdeenergíaysusfuentesconstituyenunrecurs",
+    "tcp": ""
+   },
+   {
+    "art": 379,
+    "gaceta": "i.elestadodesarrollaráypromoverálainvestigaciónyelusodenueva",
+    "tcp": ""
+   },
+   {
+    "art": 380,
+    "gaceta": "i.losrecursosnaturalesrenovablesseaprovecharándemanerasusten",
+    "tcp": ""
+   },
+   {
+    "art": 381,
+    "gaceta": "i.sonpatrimonionaturallasespeciesnativasdeorigenanimalyveget",
+    "tcp": ""
+   },
+   {
+    "art": 382,
+    "gaceta": "esfacultadydeberdelestadoladefensa,recuperación,protecciónyr",
+    "tcp": ""
+   },
+   {
+    "art": 383,
+    "gaceta": "elestadoestablecerámedidasderestricciónparcialototal,tempora",
+    "tcp": ""
+   },
+   {
+    "art": 384,
+    "gaceta": "elestadoprotegealacocaoriginariayancestralcomopatrimoniocult",
+    "tcp": ""
+   },
+   {
+    "art": 385,
+    "gaceta": "i.lasáreasprotegidasconstituyenunbiencomúnyformanpartedelpat",
+    "tcp": ""
+   },
+   {
+    "art": 386,
+    "gaceta": "losbosquesnaturalesylossuelosforestalessondecarácterestratég",
+    "tcp": ""
+   },
+   {
+    "art": 387,
+    "gaceta": "i.elestadodeberágarantizarlaconservacióndelosbosquesnaturale",
+    "tcp": ""
+   },
+   {
+    "art": 388,
+    "gaceta": "lascomunidadesindígenaoriginariocampesinassituadasdentrodeár",
+    "tcp": ""
+   },
+   {
+    "art": 389,
+    "gaceta": "i.laconversióndeusodetierrasconcoberturaboscosaausosagropecu",
+    "tcp": ""
+   },
+   {
+    "art": 390,
+    "gaceta": "i.lacuencaamazónicabolivianaconstituyeunespacioestratégicode",
+    "tcp": ""
+   },
+   {
+    "art": 391,
+    "gaceta": "i.elestadopriorizaráeldesarrollointegralsustentabledelaamazo",
+    "tcp": ""
+   },
+   {
+    "art": 392,
+    "gaceta": "i.elestadoimplementarápolíticasespecialesenbeneficiodelasnac",
+    "tcp": ""
+   },
+   {
+    "art": 393,
+    "gaceta": "elestadoreconoce,protegeygarantizalapropiedadindividualycomu",
+    "tcp": ""
+   },
+   {
+    "art": 394,
+    "gaceta": "i.lapropiedadagrariaindividualseclasificaenpequeña,medianaye",
+    "tcp": ""
+   },
+   {
+    "art": 395,
+    "gaceta": "i.lastierrasfiscalesserándotadasaindígenaoriginariocampesino",
+    "tcp": ""
+   },
+   {
+    "art": 396,
+    "gaceta": "i.elestadoregularáelmercadodetierras,evitandolaacumulaciónen",
+    "tcp": ""
+   },
+   {
+    "art": 397,
+    "gaceta": "i.eltrabajoeslafuentefundamentalparalaadquisiciónyconservaci",
+    "tcp": ""
+   },
+   {
+    "art": 398,
+    "gaceta": "seprohíbeellatifundioyladobletitulaciónporsercontrariosalint",
+    "tcp": ""
+   },
+   {
+    "art": 399,
+    "gaceta": "i.losnuevoslímitesdelapropiedadagrariazonificadaseaplicarána",
+    "tcp": ""
+   },
+   {
+    "art": 400,
+    "gaceta": "porafectarasuaprovechamientosustentableyporsercontrarioalint",
+    "tcp": ""
+   },
+   {
+    "art": 401,
+    "gaceta": "i.elincumplimientodelafuncióneconómicasocialolatenencialatif",
+    "tcp": ""
+   },
+   {
+    "art": 402,
+    "gaceta": "elestadotienelaobligaciónde:1.fomentarplanesdeasentamientosh",
+    "tcp": ""
+   },
+   {
+    "art": 403,
+    "gaceta": "i.sereconocelaintegralidaddelterritorioindígenaoriginariocam",
+    "tcp": ""
+   },
+   {
+    "art": 404,
+    "gaceta": "elserviciobolivianodereformaagraria,cuyamáximaautoridadeselp",
+    "tcp": ""
+   },
+   {
+    "art": 405,
+    "gaceta": "eldesarrolloruralintegralsustentableespartefundamentaldelasp",
+    "tcp": ""
+   },
+   {
+    "art": 406,
+    "gaceta": "i.elestadogarantizaráeldesarrolloruralintegralsustentablepor",
+    "tcp": ""
+   },
+   {
+    "art": 407,
+    "gaceta": "sonobjetivosdelapolíticadedesarrolloruralintegraldelestado,e",
+    "tcp": ""
+   },
+   {
+    "art": 408,
+    "gaceta": "elestadodeterminaráestímulosenbeneficiodelospequeñosymediano",
+    "tcp": ""
+   },
+   {
+    "art": 409,
+    "gaceta": "laproducción,importaciónycomercializacióndetransgénicosserár",
+    "tcp": ""
+   },
+   {
+    "art": 410,
+    "gaceta": "i.todaslaspersonas,naturalesyjurídicas,asícomolosórganospúbl",
+    "tcp": ""
+   },
+   {
+    "art": 411,
+    "gaceta": "i.lareformatotaldelaconstitución,oaquellaqueafecteasusbasesf",
+    "tcp": ""
+   }
+  ]
+ },
+ "vs_diputados": {
+  "articles": 411,
+  "differing": 21,
+  "diffs": [
+   {
+    "art": 5,
+    "gaceta": "u,itonama,leco,machajuyai-kallawaya,machineri,maropa,mojeño-trinitario,mojeño-ignaciano,moré,mosetén",
+    "diputados": "u,itonama,leco,machajuyai-kallawaya,macheneri,maropa,mojeño-trinitario,mojeño-ignaciano,moré,mosetén"
+   },
+   {
+    "art": 20,
+    "gaceta": "lcantarilladoconstituyenderechoshumanos,nosonobjetodeconcesiónniprivatizaciónyestánsujetosarégimende",
+    "diputados": "lcantarilladoconstituyenderechoshumanos,20nosonobjetodeconcesiónniprivatizaciónyestánsujetosarégimen"
+   },
+   {
+    "art": 108,
+    "gaceta": "pliryhacercumplirlaconstituciónylasleyes2.conocer,respetarypromoverlosderechosreconocidosenlaconstit",
+    "diputados": "pliryhacercumplirlaconstituciónylasleyes.2.conocer,respetarypromoverlosderechosreconocidosenlaconsti"
+   },
+   {
+    "art": 143,
+    "gaceta": "igadosarenunciarasunacionalidaddeorigen.capituloiiciudadanía",
+    "diputados": "igadosarenunciarasunacionalidaddeorigen."
+   },
+   {
+    "art": 144,
+    "gaceta": "isonciudadanasyciudadanostodaslasbolivianasytodoslosboliviano",
+    "diputados": "i.sonciudadanasyciudadanostodaslasbolivianasytodoslosbolivian"
+   },
+   {
+    "art": 150,
+    "gaceta": "conelpropósitodedesempeñarotrasfunciones",
+    "diputados": "conelpropósitodedesempeñarotrasfunciones."
+   },
+   {
+    "art": 156,
+    "gaceta": "yreelectosporunasolavezdemaneracontinua..",
+    "diputados": "yreelectosporunasolavezdemaneracontinua."
+   },
+   {
+    "art": 169,
+    "gaceta": "lsenado,yafaltadeéstaoésteporlapresidenteoelpresidentedelacámaradediputados.enesteúltimocaso,seconvo",
+    "diputados": "lsenado,yafaltadeéstaoésteporlapresidentaoelpresidentedelacámaradediputados.enesteúltimocaso,seconvo"
+   },
+   {
+    "art": 178,
+    "gaceta": "ñodelosjuecesdeacuerdoalacarrerajudicial2.laautonomíapresupuestariadelosórganosjudiciales.",
+    "diputados": "ñodelosjuecesdeacuerdoalacarrerajudicial.2.laautonomíapresupuestariadelosórganosjudiciales."
+   },
+   {
+    "art": 182,
+    "gaceta": "dasyelegidosmediantesufragiouniversal.iilaasamblealegislativaplurinacionalefectuarápordosterciosdesu",
+    "diputados": "dasyelegidosmediantesufragiouniversal.ii.laasamblealegislativaplurinacionalefectuarápordosterciosdes"
+   },
+   {
+    "art": 211,
+    "gaceta": "mediantenormasyprocedimientospropios,sedeestrictocumplimientoalanormativadeesospueblosynaciones.",
+    "diputados": "mediantenormasyprocedimientospropios,sedéestrictocumplimientoalanormativadeesospueblosynaciones."
+   },
+   {
+    "art": 212,
+    "gaceta": "nacircunscripciónelectoralalmismotiempo.titulovfuncionesdecontrol,dedefensadelasociedadydedefensadel",
+    "diputados": "nacircunscripciónelectoralalmismotiempo."
+   },
+   {
+    "art": 284,
+    "gaceta": "osmunicipiosdondeexistannacionesopueblosindígenaoriginariocampesinos,quenoconstituyanunaautonomíaind",
+    "diputados": "osmunicipiosdondeexistannacionesopueblos_indígenaoriginariocampesinos,quenoconstituyanunaautonomíain"
+   },
+   {
+    "art": 298,
+    "gaceta": ".políticaeconómicayplanificaciónnacionalii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régim",
+    "diputados": ".políticaeconómicayplanificaciónnacional.ii.soncompetenciasexclusivasdelnivelcentraldelestado:1.régi"
+   },
+   {
+    "art": 299,
+    "gaceta": "lecomunicaciones.3.electrificaciónurbana4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmarc",
+    "diputados": "lecomunicaciones.3.electrificaciónurbana.4.juegosdeloteríaydeazar.5.relacionesinternacionalesenelmar"
+   },
+   {
+    "art": 300,
+    "gaceta": "omovereldesarrollohumanoensujurisdicción3.iniciativayconvocatoriadeconsultasyreferendosdepartamental",
+    "diputados": "omovereldesarrollohumanoensujurisdicción.3.iniciativayconvocatoriadeconsultasyreferendosdepartamenta"
+   },
+   {
+    "art": 302,
+    "gaceta": "smunicipalesenlasmateriasdesucompetencia4.promocióndelempleoymejoradelascondicioneslaboralesenelmarc",
+    "diputados": "smunicipalesenlasmateriasdesucompetencia.4.promocióndelempleoymejoradelascondicioneslaboralesenelmar"
+   },
+   {
+    "art": 304,
+    "gaceta": "yadministracióndesussistemasdemicroriego19.fomentoydesarrollodesuvocaciónproductiva.20.construcción,",
+    "diputados": "yadministracióndesussistemasdemicroriego.19.fomentoydesarrollodesuvocaciónproductiva.20.construcción"
+   },
+   {
+    "art": 316,
+    "gaceta": "roldelossectoresestratégicosdelaeconomía4.participardirectamenteenlaeconomíamedianteelincentivoylapr",
+    "diputados": "roldelossectoresestratégicosdelaeconomía.4.participardirectamenteenlaeconomíamedianteelincentivoylap"
+   },
+   {
+    "art": 402,
+    "gaceta": "elestadotienelaobligaciónde:1.fomentarplanesdeasentamientoshumanosparaalcanzarunaraciona",
+    "diputados": "elestadotienelaobligaciónde:i.fomentarplanesdeasentamientoshumanosparaalcanzarunaraciona"
+   },
+   {
+    "art": 410,
+    "gaceta": "cadelestado.2.lostratadosinternacionales3.lasleyesnacionales,losestatutosautonómicos,lascartasorgáni",
+    "diputados": "cadelestado.2.lostratadosinternacionales.3.lasleyesnacionales,losestatutosautonómicos,lascartasorgán"
+   }
+  ]
+ }
+}
