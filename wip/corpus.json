@@ -21,7 +21,7 @@
    "name": "Gaceta Oficial del Estado Plurinacional de Bolivia (Internet Archive raw captures)",
    "url": "https://www.gacetaoficialdebolivia.gob.bo",
    "retrieved": "2026-10-28",
-   "requests": 6,
+   "requests": 8,
    "licence": "Marked \"TEXTO DE CONSULTA\" and \"Derechos Reservados © Gaceta Oficial de Bolivia\"; no open licence stated.",
    "notes": "The live site times out from the build machine; captures are pinned by timestamp in the URLs."
   },
