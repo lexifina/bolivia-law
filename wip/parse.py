@@ -170,6 +170,8 @@ def parse_cpe_gaceta(path: Path) -> dict:
             for h in pending_head:
                 struct.append(f"{h}  [art. {n}]")
             pending_head = []
+            if f"art-{n - 1:03d}" not in units and n != 1 or f"art-{n:03d}" in units:
+                raise SystemExit(f"article {n} out of sequence in the Gaceta text")
             start(f"art-{n:03d}", f"Art. {n}")
             if m.group(2):
                 add(m.group(2), True)
