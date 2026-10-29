@@ -1,0 +1,527 @@
+{
+ "country": "BO",
+ "acts": [
+  {
+   "slug": "constitucion",
+   "short": "CPE",
+   "title": "Constitución Política del Estado",
+   "url": "http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf",
+   "versions": [
+    {
+     "from": "2009-02-07",
+     "units": 426,
+     "source_url": "https://web.archive.org/web/20261006172245id_/http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf",
+     "sha256": "7d16ae0f56103f43486201ebcb7a33051b635191bf96c457fa321cfc761ba432"
+    },
+    {
+     "from": "2016-02-21",
+     "units": 426,
+     "source_url": "https://web.archive.org/web/20261006172245id_/http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf",
+     "sha256": "7d16ae0f56103f43486201ebcb7a33051b635191bf96c457fa321cfc761ba432"
+    },
+    {
+     "from": "2017-11-28",
+     "units": 426,
+     "source_url": "https://web.archive.org/web/20261006172245id_/http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf",
+     "sha256": "7d16ae0f56103f43486201ebcb7a33051b635191bf96c457fa321cfc761ba432"
+    },
+    {
+     "from": "2023-12-28",
+     "units": 426,
+     "source_url": "https://web.archive.org/web/20261006172245id_/http://www.gacetaoficialdebolivia.gob.bo/app/webroot/archivos/CONSTITUCION.pdf",
+     "sha256": "7d16ae0f56103f43486201ebcb7a33051b635191bf96c457fa321cfc761ba432"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-civil",
+   "short": "CC",
+   "title": "Código Civil (Decreto Ley N° 12760 de 6 de agosto de 1975)",
+   "url": "http://www.silep.gob.bo/norma/4451/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-02-24",
+     "units": 1571,
+     "source_url": "https://web.archive.org/web/20240224013706id_/http://www.silep.gob.bo/norma/4451/ley_actualizada",
+     "sha256": "5e57b28aeeac7ae1865d5d94b181ae480d6ae7e51fe4e81bfa25ea62f66d2f36"
+    }
+   ]
+  },
+  {
+   "slug": "ley-031-autonomias",
+   "short": "LMAD",
+   "title": "Ley Marco de Autonomías y Descentralización \"Andrés Ibáñez\" (Ley N° 031 de 19 de julio de 2010)",
+   "url": "http://www.silep.gob.bo/norma/4139/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-03-15",
+     "units": 179,
+     "source_url": "https://web.archive.org/web/20230315225556id_/http://www.silep.gob.bo/norma/4139/ley_actualizada",
+     "sha256": "df05ff08efab153e8fe380742dc549c8a8a47808eaca5464fe34fb148903b586"
+    }
+   ]
+  },
+  {
+   "slug": "ley-348-violencia-mujeres",
+   "short": "L348",
+   "title": "Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia (Ley N° 348 de 9 de marzo de 2013)",
+   "url": "http://www.silep.gob.bo/norma/12781/ley_actualizada",
+   "versions": [
+    {
+     "from": "2020-10-28",
+     "units": 111,
+     "source_url": "http://www.silep.gob.bo/norma/12781/ley_actualizada",
+     "sha256": "06c89669d5cc8d6b91b7f99f00a37bcd1d5f0efff0737091d5108fae6115800e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-1333-medio-ambiente",
+   "short": "LMA",
+   "title": "Ley de Medio Ambiente (Ley N° 1333 de 27 de abril de 1992)",
+   "url": "http://www.silep.gob.bo/norma/3198/ley_actualizada",
+   "versions": [
+    {
+     "from": "2025-11-10",
+     "units": 119,
+     "source_url": "https://web.archive.org/web/20251110140807id_/http://www.silep.gob.bo/norma/3198/ley_actualizada",
+     "sha256": "836d3ab681eca446d3d22648387ff7615d8dce310e07a6cc3fd90e7a4e7d0fda"
+    }
+   ]
+  },
+  {
+   "slug": "ley-2027-estatuto-funcionario",
+   "short": "EFP",
+   "title": "Estatuto del Funcionario Público (Ley N° 2027 de 27 de octubre de 1999)",
+   "url": "http://www.silep.gob.bo/norma/4085/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-01-29",
+     "units": 78,
+     "source_url": "http://www.silep.gob.bo/norma/4085/ley_actualizada",
+     "sha256": "edd8b5197a761eb8c32dc1aaa15926318e88ebb6a38e3a138e8756041140f6d1"
+    }
+   ]
+  },
+  {
+   "slug": "ley-070-educacion",
+   "short": "LASEP",
+   "title": "Ley de la Educación \"Avelino Siñani - Elizardo Pérez\" (Ley N° 070 de 20 de diciembre de 2010)",
+   "url": "http://www.silep.gob.bo/norma/4191/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-05-02",
+     "units": 108,
+     "source_url": "https://web.archive.org/web/20251127231136id_/http://www.silep.gob.bo/norma/4191/ley_actualizada",
+     "sha256": "bc022b9423b84d026e59a858dc1b391e77820597248f7cca1d832fcde1634308"
+    }
+   ]
+  },
+  {
+   "slug": "ley-535-mineria",
+   "short": "LMM",
+   "title": "Ley de Minería y Metalurgia (Ley N° 535 de 28 de mayo de 2014)",
+   "url": "http://www.silep.gob.bo/norma/13297/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-03-15",
+     "units": 246,
+     "source_url": "https://web.archive.org/web/20230315225614id_/http://www.silep.gob.bo/norma/13297/ley_actualizada",
+     "sha256": "12b3012f74b0f9af1f46ba9b9fb243a8ae17dbefac9cd3c2f6283873b45e1434"
+    }
+   ]
+  },
+  {
+   "slug": "ley-341-participacion",
+   "short": "LPCS",
+   "title": "Ley de Participación y Control Social (Ley N° 341 de 5 de febrero de 2013)",
+   "url": "http://www.silep.gob.bo/norma/12774/ley_actualizada",
+   "versions": [
+    {
+     "from": "2021-09-26",
+     "units": 52,
+     "source_url": "http://www.silep.gob.bo/norma/12774/ley_actualizada",
+     "sha256": "73765e4877883b9644ec197900d77e7e55e524960507316e6e62372a444ee0e9"
+    }
+   ]
+  },
+  {
+   "slug": "ley-401-tratados",
+   "short": "LCT",
+   "title": "Ley de Celebración de Tratados (Ley N° 401 de 18 de septiembre de 2013)",
+   "url": "http://www.silep.gob.bo/norma/13075/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-09-14",
+     "units": 77,
+     "source_url": "https://web.archive.org/web/20240914095708id_/http://www.silep.gob.bo/norma/13075/ley_actualizada",
+     "sha256": "629ec8726040cdafff10ce228f53830f195289acdef4cf8e388930a2e2a30723"
+    }
+   ]
+  },
+  {
+   "slug": "ley-300-madre-tierra",
+   "short": "LMT",
+   "title": "Ley Marco de la Madre Tierra y Desarrollo Integral para Vivir Bien (Ley N° 300 de 15 de octubre de 2012)",
+   "url": "http://www.silep.gob.bo/norma/12733/ley_actualizada",
+   "versions": [
+    {
+     "from": "2025-02-15",
+     "units": 67,
+     "source_url": "http://www.silep.gob.bo/norma/12733/ley_actualizada",
+     "sha256": "fad37fb73e69bf85513738f3f744f389375cab77914d3ea9096250889867a3c4"
+    }
+   ]
+  },
+  {
+   "slug": "ley-045-racismo",
+   "short": "L045",
+   "title": "Ley contra el Racismo y toda Forma de Discriminación (Ley N° 045 de 8 de octubre de 2010)",
+   "url": "http://www.silep.gob.bo/norma/4154/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-17",
+     "units": 28,
+     "source_url": "http://www.silep.gob.bo/norma/4154/ley_actualizada",
+     "sha256": "1027b139557933481393258a9ce488ac66ca7da38b60e76e29b9a580353061ea"
+    }
+   ]
+  },
+  {
+   "slug": "ley-483-notariado",
+   "short": "LNP",
+   "title": "Ley del Notariado Plurinacional (Ley N° 483 de 25 de enero de 2014)",
+   "url": "http://www.silep.gob.bo/norma/13245/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-12-14",
+     "units": 126,
+     "source_url": "https://web.archive.org/web/20231214135225id_/http://www.silep.gob.bo/norma/13245/ley_actualizada",
+     "sha256": "edca50baae37653986b9eb2f906615dbc055cbd6177cf87313bd68f49c4c47e3"
+    }
+   ]
+  },
+  {
+   "slug": "ley-1096-organizaciones-politicas",
+   "short": "LOP",
+   "title": "Ley de Organizaciones Políticas (Ley N° 1096 de 1 de septiembre de 2018)",
+   "url": "http://www.silep.gob.bo/norma/15593/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-03-15",
+     "units": 111,
+     "source_url": "http://www.silep.gob.bo/norma/15593/ley_actualizada",
+     "sha256": "67f3817916f6ba45a1554fd4ff45fe62dc52f95584f52e6ca00705a50c5ff192"
+    }
+   ]
+  },
+  {
+   "slug": "ley-1715-inra",
+   "short": "INRA",
+   "title": "Ley del Servicio Nacional de Reforma Agraria (Ley N° 1715 de 18 de octubre de 1996)",
+   "url": "http://www.silep.gob.bo/norma/4376/ley_actualizada",
+   "versions": [
+    {
+     "from": "2025-11-10",
+     "units": 115,
+     "source_url": "https://web.archive.org/web/20251110140802id_/http://www.silep.gob.bo/norma/4376/ley_actualizada",
+     "sha256": "581a7a588bd42457c164f72158da78c8bde11796e55837749569d054d67ac5af"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-de-comercio",
+   "short": "CCom",
+   "title": "Código de Comercio (Decreto Ley N° 14379 de 25 de febrero de 1977)",
+   "url": "http://www.silep.gob.bo/norma/4465/ley_actualizada",
+   "versions": [
+    {
+     "from": "2020-05-13",
+     "units": 1652,
+     "source_url": "https://web.archive.org/web/20200513122123id_/http://www.silep.gob.bo:80/norma/4465/ley_actualizada",
+     "sha256": "21a44c9e28951f51dcd2a6bdd69503abd50816669997870758801ed28b6653da"
+    }
+   ]
+  },
+  {
+   "slug": "ley-073-deslinde",
+   "short": "LDJ",
+   "title": "Ley de Deslinde Jurisdiccional (Ley N° 073 de 29 de diciembre de 2010)",
+   "url": "http://www.silep.gob.bo/norma/4194/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-03-15",
+     "units": 20,
+     "source_url": "https://web.archive.org/web/20250626181331id_/http://www.silep.gob.bo/norma/4194/ley_actualizada",
+     "sha256": "e277ae67c9812c543f26848c89388c4f23056a3a9248f695e929c9f1a1626298"
+    }
+   ]
+  },
+  {
+   "slug": "ley-1700-forestal",
+   "short": "LF",
+   "title": "Ley Forestal (Ley N° 1700 de 12 de julio de 1996)",
+   "url": "http://www.silep.gob.bo/norma/4131/ley_actualizada",
+   "versions": [
+    {
+     "from": "2025-11-10",
+     "units": 56,
+     "source_url": "https://web.archive.org/web/20251110141959id_/http://www.silep.gob.bo/norma/4131/ley_actualizada",
+     "sha256": "2cf19c1dafe6e38ec73183914b6c23769f728499b8763e8e01305d2601597dbd"
+    }
+   ]
+  },
+  {
+   "slug": "ley-2298-ejecucion-penal",
+   "short": "LEPS",
+   "title": "Ley de Ejecución Penal y Supervisión (Ley N° 2298 de 20 de diciembre de 2001)",
+   "url": "http://www.silep.gob.bo/norma/4084/ley_actualizada",
+   "versions": [
+    {
+     "from": "2022-07-22",
+     "units": 227,
+     "source_url": "https://web.archive.org/web/20220722185429id_/http://www.silep.gob.bo/norma/4084/ley_actualizada",
+     "sha256": "9911b91297ce2e1ad1195f3c78a4e73ea8d88e1e09218ad704f4c2adb1be5280"
+    }
+   ]
+  },
+  {
+   "slug": "ley-165-transporte",
+   "short": "LGT",
+   "title": "Ley General de Transporte (Ley N° 165 de 16 de agosto de 2011)",
+   "url": "http://www.silep.gob.bo/norma/4503/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-17",
+     "units": 320,
+     "source_url": "https://web.archive.org/web/20240717182914id_/http://www.silep.gob.bo/norma/4503/ley_actualizada",
+     "sha256": "682484fdbbc0183ed4961755e3867dfc6ca91f6ffe53edd0fb7a5a1aad9d7f6b"
+    }
+   ]
+  },
+  {
+   "slug": "ley-223-discapacidad",
+   "short": "L223",
+   "title": "Ley General para Personas con Discapacidad (Ley N° 223 de 2 de marzo de 2012)",
+   "url": "http://www.silep.gob.bo/norma/4614/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-17",
+     "units": 53,
+     "source_url": "http://www.silep.gob.bo/norma/4614/ley_actualizada",
+     "sha256": "db28ee89aacdf74ea800f25a5900ee5958b708e57aa3947e6e8e926164bec5ba"
+    }
+   ]
+  },
+  {
+   "slug": "ley-243-acoso-politico",
+   "short": "L243",
+   "title": "Ley contra el Acoso y Violencia Política hacia las Mujeres (Ley N° 243 de 28 de mayo de 2012)",
+   "url": "http://www.silep.gob.bo/norma/4634/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-03-14",
+     "units": 33,
+     "source_url": "https://web.archive.org/web/20251203012452id_/http://www.silep.gob.bo/norma/4634/ley_actualizada",
+     "sha256": "d1b036ff70fa6bdfd7e47eebf67c346b0aedbb4c508467f3cc2eaa76db8d433a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-263-trata",
+   "short": "L263",
+   "title": "Ley Integral contra la Trata y Tráfico de Personas (Ley N° 263 de 31 de julio de 2012)",
+   "url": "http://www.silep.gob.bo/norma/4654/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-17",
+     "units": 53,
+     "source_url": "https://web.archive.org/web/20240717040522id_/http://www.silep.gob.bo/norma/4654/ley_actualizada",
+     "sha256": "a1a9873e78217e398db1d38cb255c2dba8616f54ee8753e2dd5ed490fb133893"
+    }
+   ]
+  },
+  {
+   "slug": "ley-269-linguisticas",
+   "short": "L269",
+   "title": "Ley General de Derechos y Políticas Lingüísticas (Ley N° 269 de 2 de agosto de 2012)",
+   "url": "http://www.silep.gob.bo/norma/4660/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-05-02",
+     "units": 33,
+     "source_url": "http://www.silep.gob.bo/norma/4660/ley_actualizada",
+     "sha256": "863aa2d0dd5c836e6e16e158e633d2a9cd78ffa4808b71345f20d81bdbd41970"
+    }
+   ]
+  },
+  {
+   "slug": "ley-369-adultos-mayores",
+   "short": "L369",
+   "title": "Ley General de las Personas Adultas Mayores (Ley N° 369 de 1 de mayo de 2013)",
+   "url": "http://www.silep.gob.bo/norma/12839/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-17",
+     "units": 28,
+     "source_url": "http://www.silep.gob.bo/norma/12839/ley_actualizada",
+     "sha256": "03da51232f5be30129ae3f45148f5baa63fa357d1256be8a0cca5b96342d9f4e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-400-armas",
+   "short": "L400",
+   "title": "Ley de Control de Armas de Fuego, Municiones, Explosivos y otros Materiales Relacionados (Ley N° 400 de 18 de septiembre de 2013)",
+   "url": "http://www.silep.gob.bo/norma/13074/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-16",
+     "units": 67,
+     "source_url": "https://web.archive.org/web/20240716122936id_/http://www.silep.gob.bo/norma/13074/ley_actualizada",
+     "sha256": "5b4a553e65fddc8c90fdcfcc782f38957ac69761d9e317a84d1cca177b761dcf"
+    }
+   ]
+  },
+  {
+   "slug": "ley-465-relaciones-exteriores",
+   "short": "L465",
+   "title": "Ley del Servicio de Relaciones Exteriores del Estado Plurinacional de Bolivia (Ley N° 465 de 19 de diciembre de 2013)",
+   "url": "http://www.silep.gob.bo/norma/13223/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-09-14",
+     "units": 76,
+     "source_url": "https://web.archive.org/web/20240914100555id_/http://www.silep.gob.bo/norma/13223/ley_actualizada",
+     "sha256": "b7dd62c1723c0ccaf6c63676566f7eb2a9eaa2929b6baf762b65a72c4e4a527d"
+    }
+   ]
+  },
+  {
+   "slug": "ley-530-patrimonio-cultural",
+   "short": "L530",
+   "title": "Ley del Patrimonio Cultural Boliviano (Ley N° 530 de 23 de mayo de 2014)",
+   "url": "http://www.silep.gob.bo/norma/13292/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-06-04",
+     "units": 72,
+     "source_url": "https://web.archive.org/web/20240604233935id_/http://www.silep.gob.bo/norma/13292/ley_actualizada",
+     "sha256": "82f0e9c5c963e4d4b5f372d9cca36662d7b6aad061e6d2927ba9ba4aef91453d"
+    }
+   ]
+  },
+  {
+   "slug": "ley-602-gestion-riesgos",
+   "short": "L602",
+   "title": "Ley de Gestión de Riesgos (Ley N° 602 de 14 de noviembre de 2014)",
+   "url": "http://www.silep.gob.bo/norma/13365/ley_actualizada",
+   "versions": [
+    {
+     "from": "2022-12-30",
+     "units": 57,
+     "source_url": "https://web.archive.org/web/20221230212329id_/http://www.silep.gob.bo/norma/13365/ley_actualizada",
+     "sha256": "014636ebaa50a44047998f61a738a73a18ae1dd210592a8e38ae41ed438fc76e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-458-denunciantes",
+   "short": "L458",
+   "title": "Ley de Protección de Denunciantes y Testigos (Ley N° 458 de 19 de diciembre de 2013)",
+   "url": "http://www.silep.gob.bo/norma/13216/ley_actualizada",
+   "versions": [
+    {
+     "from": "2021-09-26",
+     "units": 36,
+     "source_url": "http://www.silep.gob.bo/norma/13216/ley_actualizada",
+     "sha256": "a0f0266361742b3547e61ec3fba7207f96fe9e29f4873ecab339c85c67a5c558"
+    }
+   ]
+  },
+  {
+   "slug": "ley-974-transparencia",
+   "short": "L974",
+   "title": "Ley de Unidades de Transparencia y Lucha contra la Corrupción (Ley N° 974 de 4 de septiembre de 2017)",
+   "url": "http://www.silep.gob.bo/norma/13888/ley_actualizada",
+   "versions": [
+    {
+     "from": "2023-10-04",
+     "units": 45,
+     "source_url": "http://www.silep.gob.bo/norma/13888/ley_actualizada",
+     "sha256": "759c7f401a1bc1bcc5e0db80489460e663487245c275493d02c0d447c7382ea1"
+    }
+   ]
+  },
+  {
+   "slug": "ley-144-revolucion-productiva",
+   "short": "L144",
+   "title": "Ley de la Revolución Productiva Comunitaria Agropecuaria (Ley N° 144 de 26 de junio de 2011)",
+   "url": "http://www.silep.gob.bo/norma/4591/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-06-21",
+     "units": 75,
+     "source_url": "https://web.archive.org/web/20240621103507id_/http://www.silep.gob.bo/norma/4591/ley_actualizada",
+     "sha256": "70d7d9cbc8ea88557dbd34f0f67ec352ac24a1c0de96f63cb6e2b6573270f522"
+    }
+   ]
+  },
+  {
+   "slug": "ley-338-oecas",
+   "short": "L338",
+   "title": "Ley de Organizaciones Económicas Campesinas, Indígena Originarias (Ley N° 338 de 26 de enero de 2013)",
+   "url": "http://www.silep.gob.bo/norma/12771/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-06-20",
+     "units": 47,
+     "source_url": "https://web.archive.org/web/20240620214228id_/http://www.silep.gob.bo/norma/12771/ley_actualizada",
+     "sha256": "778a2d6e050452e6eac72e5bc92099dded4e7b8107ba33dbb8f787769b5f0c91"
+    }
+   ]
+  },
+  {
+   "slug": "ley-521-espacio-aereo",
+   "short": "L521",
+   "title": "Ley de Seguridad y Defensa del Espacio Aéreo (Ley N° 521 de 22 de abril de 2014)",
+   "url": "http://www.silep.gob.bo/norma/13283/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-09-09",
+     "units": 18,
+     "source_url": "https://web.archive.org/web/20240909182137id_/http://www.silep.gob.bo/norma/13283/ley_actualizada",
+     "sha256": "ee21a0fbf0ba09887eb8870890e31fac825c374a3d44c48c196fb0ed7b14d392"
+    }
+   ]
+  },
+  {
+   "slug": "ley-700-animales",
+   "short": "L700",
+   "title": "Ley para la Defensa de los Animales contra Actos de Crueldad y Maltrato (Ley N° 700 de 1 de junio de 2015)",
+   "url": "http://www.silep.gob.bo/norma/13463/ley_actualizada",
+   "versions": [
+    {
+     "from": "2024-07-10",
+     "units": 15,
+     "source_url": "https://web.archive.org/web/20240710204346id_/http://www.silep.gob.bo/norma/13463/ley_actualizada",
+     "sha256": "15838a0c142efb7056652e521ce95528760340dc536f2d0e944afa2c165be4f8"
+    }
+   ]
+  },
+  {
+   "slug": "ley-1171-quemas",
+   "short": "L1171",
+   "title": "Ley de Uso y Manejo Racional de Quemas (Ley N° 1171 de 25 de abril de 2019)",
+   "url": "http://www.silep.gob.bo/norma/15666/ley_actualizada",
+   "versions": [
+    {
+     "from": "2025-10-21",
+     "units": 15,
+     "source_url": "https://web.archive.org/web/20251021055000id_/http://www.silep.gob.bo/norma/15666/ley_actualizada",
+     "sha256": "08c7d1ca3f5e597d0b58bc465385052fc5831cec2c3c5781063b22fc3f350de2"
+    }
+   ]
+  }
+ ]
+}
