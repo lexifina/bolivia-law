@@ -1,0 +1,73 @@
+{
+ "unnumbered_blocks": [
+  {
+   "block": "455625",
+   "assigned": "Art. 1537",
+   "text": "Artículo DEROGADO por la Disposición Final de la Ley Nº 018 de fecha 16 de junio del 2010"
+  }
+ ],
+ "codigo-civil": {
+  "source": "https://web.archive.org/web/20240224013706id_/http://www.silep.gob.bo/norma/4451/ley_actualizada",
+  "sha256": "5e57b28aeeac7ae1865d5d94b181ae480d6ae7e51fe4e81bfa25ea62f66d2f36",
+  "meta": {
+   "numero": "12760",
+   "promulgacion": "06/08/1975",
+   "titulo": "DECRETO LEY 12760",
+   "estado": "Vigente con Modificaciones",
+   "gaceta": ""
+  },
+  "articles": 1570,
+  "max_article": 1570,
+  "missing_numbers": [],
+  "in_order": true,
+  "headings": 812,
+  "silep_notes": {
+   "ley-2089-2000": [
+    "Art. 4"
+   ],
+   "ley-1654-1995": [
+    "Art. 58",
+    "Art. 68"
+   ],
+   "ley-1777-1997": [
+    "Art. 464",
+    "Art. 688"
+   ],
+   "ley-060-2010": [
+    "Art. 909",
+    "Art. 910",
+    "Art. 911",
+    "Art. 912",
+    "Art. 913",
+    "Art. 914",
+    "Art. 915"
+   ],
+   "ley-004-2010": [
+    "Art. 1502",
+    "Art. 1552",
+    "Art. 1553"
+   ],
+   "ley-1367-1992": [
+    "Art. 1521",
+    "Art. 1522"
+   ],
+   "ley-018-2010": [
+    "Art. 1537"
+   ]
+  }
+ },
+ "codigo-penal (not built)": {
+  "captures": [
+   "20200907201025",
+   "20210510203809",
+   "20211107212007",
+   "20220610234911",
+   "20230825213055",
+   "20240124074843"
+  ],
+  "text_identical_across_captures": true,
+  "latest_dated_law_note": "2019-05-03",
+  "ley_1390_note": "Ley 1390 of 27/08/2021 (SILEP norma 15931, capture 20231004042425) arts. 2-3 and disposición derogatoria única modify, insert and repeal Código Penal articles (34, 105, 142-147, 150-154, 157, 158, 163, 173, 174, 177, 221-225, 229; 5 bis, 23 bis/ter, 26 bis-octies, 146 ter; repeal 36, 96, 149, 150 bis, 173 bis, 228, 228 bis); SILEP's Código Penal page does not show any of it.",
+  "ley_1390_checked": true
+ }
+}
