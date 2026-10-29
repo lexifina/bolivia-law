@@ -1,0 +1,55 @@
+{
+ "parts": {
+  "50-codes.json": {
+   "acts": [
+    "codigo-civil"
+   ],
+   "sha256": "6f17a19cfc58c90de3a2be5915afe05c70e1a435a6afc3ad42744cb99324a5b1"
+  },
+  "60-batch1.json": {
+   "acts": [
+    "ley-031-autonomias",
+    "ley-045-racismo",
+    "ley-070-educacion",
+    "ley-1096-organizaciones-politicas",
+    "ley-1333-medio-ambiente",
+    "ley-1715-inra",
+    "ley-2027-estatuto-funcionario",
+    "ley-300-madre-tierra",
+    "ley-341-participacion",
+    "ley-348-violencia-mujeres",
+    "ley-401-tratados",
+    "ley-483-notariado",
+    "ley-535-mineria"
+   ],
+   "sha256": "d922424b4870d5bdfb8f5c34bf0a7f90ac4a48e2ef1c9487a34dca8c8cfae3e7"
+  },
+  "61-batch2.json": {
+   "acts": [
+    "codigo-de-comercio",
+    "ley-073-deslinde",
+    "ley-1171-quemas",
+    "ley-144-revolucion-productiva",
+    "ley-165-transporte",
+    "ley-1700-forestal",
+    "ley-223-discapacidad",
+    "ley-2298-ejecucion-penal",
+    "ley-243-acoso-politico",
+    "ley-263-trata",
+    "ley-269-linguisticas",
+    "ley-338-oecas",
+    "ley-369-adultos-mayores",
+    "ley-400-armas",
+    "ley-458-denunciantes",
+    "ley-465-relaciones-exteriores",
+    "ley-521-espacio-aereo",
+    "ley-530-patrimonio-cultural",
+    "ley-602-gestion-riesgos",
+    "ley-700-animales",
+    "ley-974-transparencia"
+   ],
+   "sha256": "752e8a362e5e64e6ad7a29e14b031a557b71e431c6a6d60a424e870226b80f71"
+  }
+ },
+ "schema": 1
+}
