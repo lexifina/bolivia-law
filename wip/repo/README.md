@@ -74,7 +74,7 @@ The author of a commit is the law, referendum or ruling, with an e-mail address 
 - The Constitution's first commit is credited to its approval and promulgation in 2009 (`CPE 2009`, kind `referendum`).
 - A referendum or ruling that changed no words gets a commit of its own that changes no files. Its message says what happened and names the provisions, and its trailers say `Words-changed: no`.
 - Changes that no source explains would be committed by the publisher, the Gaceta Oficial, and labelled "unexplained". There are none.
-- The Código Civil's single commit is credited to the publisher as the "oldest version available", because no law produced that text on that day. The repository has one publisher identity, the Gaceta Oficial. SILEP's page gives its own source as "Fuente: Gaceta" and is headed "Datos de la Gaceta Oficial del Estado Plurinacional de Bolivia".
+- The Código Civil's single commit is credited to its own publisher, SILEP (Vicepresidencia del Estado, `silep@silep.invalid`), as the "oldest version available", because no law produced that text on that day. The text is SILEP's consolidation; SILEP's page gives its own source as "Fuente: Gaceta" and is headed "Datos de la Gaceta Oficial del Estado Plurinacional de Bolivia". The Gaceta Oficial remains the publisher for the Constitution.
 
 ## What it does not show
 

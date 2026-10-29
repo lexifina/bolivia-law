@@ -105,6 +105,10 @@
    "short": "CC",
    "title": "Código Civil (Decreto Ley N° 12760 de 6 de agosto de 1975)",
    "url": "http://www.silep.gob.bo/norma/4451/ley_actualizada",
+   "publisher": {
+    "name": "SILEP (Vicepresidencia del Estado)",
+    "email": "silep@silep.invalid"
+   },
    "first_law": null,
    "earlier_laws": [
     "dl-12760",
@@ -7991,7 +7995,7 @@
   "Código Civil: SILEP's own placeholder lines for repealed articles (for example \"EL ARTICULO 910 ESTA EROGADO POR LA LEY Nº 060.\", arts. 909-915) are kept as printed, typo included.",
   "Código Civil: Ley 1071 of 18/06/2018 raised the Code to the rank of law without changing its words (reported in secondary sources); SILEP does not list it on the page, so it is not recorded as an event.",
   "Código Civil: SILEP stopped applying amendments to its consolidated codes around 2019-2020 (its Código Penal page lacks Ley 1390 of 2021). We know of no later law that changes the Código Civil's words, but a change SILEP did not record would be missing here; the README says so.",
-  "Código Civil: its commit is authored by the country publisher (the Gaceta Oficial), the only publisher identity the builder has; SILEP's page is headed \"Datos de la Gaceta Oficial\" and names \"Fuente: Gaceta\".",
+  "Código Civil: the act names its own publisher, SILEP (Vicepresidencia del Estado), which authors its \"oldest version available\" commit; the country publisher (the Gaceta Oficial) authors only the CPE's. SILEP's page is headed \"Datos de la Gaceta Oficial\" and names \"Fuente: Gaceta\", but the consolidated text is SILEP's.",
   "Código Penal: not built. SILEP's page (norma 4368) is identical in every complete capture from 2020-09-07 to 2024-01-24 and lacks Ley 1390 of 27/08/2021, which rewrote or added about 35 articles (SILEP's own page for Ley 1390, capture 2023-10-04, shows them). With no current official consolidated text, a replay could not be checked, so the Code would not be today's text."
  ],
  "ai_use": [
