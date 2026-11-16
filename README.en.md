@@ -61,6 +61,7 @@ The Constitution is credited to its approval and promulgation (`CPE 2009`), and 
 - The codes and laws are SILEP's text as printed, without its lists of links; the parser checks that every article appears once and in order, and where an archived copy of SILEP's PDF of the same law exists, its words are the same.
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before; both must match the corpus: 39 versions of 36 acts, 0 mismatches, and a second build gave identical hashes ([`REPRODUCE.md`](REPRODUCE.md)).
 - History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -84,6 +85,10 @@ The Constitution is credited to its approval and promulgation (`CPE 2009`), and 
 See [`LICENSE`](LICENSE). The legal texts are official texts of the Estado Plurinacional de Bolivia, reproduced with attribution to their sources; the Gaceta marks its text "TEXTO DE CONSULTA" and "Derechos Reservados © Gaceta Oficial de Bolivia", no source publishes a licence, and their copyright status is not confirmed. Lexifina's own contributions (the arrangement, commit messages, tables and tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs at build time; the scripts were written by Claude Code running Claude Opus 5.5 (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 

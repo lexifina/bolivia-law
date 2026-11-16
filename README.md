@@ -61,6 +61,7 @@ La Constitución se atribuye a su aprobación y promulgación (`CPE 2009`), y el
 - Los códigos y leyes son el texto del SILEP tal como se publica, sin sus listas de enlaces; el analizador verifica que cada artículo aparezca una sola vez y en orden, y, donde existe una copia archivada del PDF del SILEP de la misma ley, sus palabras son las mismas.
 - `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigor y el día anterior; ambas lecturas deben coincidir con el corpus: 39 versiones de 36 normas, 0 discrepancias, y una segunda compilación dio hashes idénticos ([`REPRODUCE.md`](REPRODUCE.md)).
 - La historia solo admite agregados (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada fechado en el futuro, y los trailers de todos los commits se analizan sin errores.
+- [vulnerabilities/](vulnerabilities/): posibles errores de redacción en este derecho, hallados por los detectores de global-law y revisados a mano. Aún no se ha ejecutado.
 
 ## Qué no muestra
 
@@ -86,6 +87,10 @@ Véase [`LICENSE`](LICENSE). Los textos normativos son textos oficiales del Esta
 Ningún modelo de IA escribió, tradujo ni corrigió texto normativo, y ninguno se ejecuta durante la compilación; los scripts los escribió Claude Code con Claude Opus 5.5 (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
+
+## Visualizaciones
+
+- [visualisations/](visualisations/): gráficos hechos a partir de este repositorio. Aún no se han hecho.
 
 ## Más información
 
