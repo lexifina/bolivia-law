@@ -1,35 +1,41 @@
-# Bolivia: law history in git
+# Bolivia: historia del derecho en git
 
+**Español** · [English](README.en.md)
 
-The national law of Bolivia as a git history: one file per article, one commit per version, and the law, vote or ruling behind each version as the commit's author. `git blame` names the source of every paragraph; `git log` lists every change to an article; picking a date gives the text in force that day, as far as the record reaches.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/es/effort-dark.svg">
+<img alt="El derecho boliviano en este repositorio: qué contiene, los cambios por año de entrada en vigor, la completitud frente a las fuentes oficiales y la exactitud de lo que contiene" src="data/es/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Bolivia's national law, which global-law reads at `bolivia/national/acts/`.
+El derecho nacional de Bolivia como historia de git: un archivo por artículo, un commit por versión, y la ley, la votación o la sentencia que dio origen a cada versión como autor del commit. `git blame` indica el origen de cada párrafo; `git log` enumera todos los cambios de un artículo; al elegir una fecha se obtiene el texto vigente ese día, hasta donde alcanza el registro.
 
-**What is in it now:** the Constitution of 2009 and 35 national codes and laws, among them the Código Civil, the Código de Comercio, the Estatuto del Funcionario Público and the Ley de Medio Ambiente, with 39 versions. The Constitution's words have never been amended: the 2016 referendum on art. 168 and two rulings of the Tribunal Constitucional Plurinacional (2017, 2023) that left them as they were are commits of their own that change no file (`Words-changed: no`). The 35 codes and laws are one text each, as SILEP consolidated them, because SILEP never shows earlier wording. [`data/versions.json`](data/versions.json) lists every act with its versions; [`data/laws.csv`](data/laws.csv) lists the 66 laws, decrees, votes and rulings the record names.
+Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), una única historia de git para el derecho de todos los países: este es el derecho nacional de Bolivia, que global-law lee en `bolivia/national/acts/`.
 
-Each act is a folder named after it (`constitucion/`, `codigo-civil/`, `ley-2027-estatuto-funcionario/`), with one file per article: `constitucion/art-168.md` is art. 168 of the Constitución Política del Estado. Headings are in each folder's `estructura.md`, and its `README.md` lists the provisions.
+**Qué contiene ahora:** la Constitución de 2009 y 35 códigos y leyes nacionales, entre ellos el Código Civil, el Código de Comercio, el Estatuto del Funcionario Público y la Ley de Medio Ambiente, con 39 versiones. El texto de la Constitución nunca ha sido modificado: el referendo de 2016 sobre el art. 168 y dos sentencias del Tribunal Constitucional Plurinacional (2017, 2023) que lo dejaron como estaba son commits propios que no cambian ningún archivo (`Words-changed: no`). Los 35 códigos y leyes son un único texto cada uno, tal como el SILEP los actualizó, porque el SILEP nunca muestra redacciones anteriores. [`data/versions.json`](data/versions.json) enumera cada norma con sus versiones; [`data/laws.csv`](data/laws.csv) enumera las 66 leyes, decretos, votaciones y sentencias que el registro menciona.
 
-The text is in Spanish, as the Gaceta Oficial (the Constitution) and SILEP (the codes and laws) print it. An English translation is not part of this record.
+Cada norma es una carpeta con su nombre (`constitucion/`, `codigo-civil/`, `ley-2027-estatuto-funcionario/`), con un archivo por artículo: `constitucion/art-168.md` es el art. 168 de la Constitución Política del Estado. Los encabezados están en el `estructura.md` de cada carpeta, y su `README.md` enumera las disposiciones.
 
-## Questions as git commands
+El texto está en español, tal como lo publican la Gaceta Oficial (la Constitución) y el SILEP (los códigos y leyes). Este registro no incluye una traducción al inglés.
 
-| Question | Command |
+## Preguntas como comandos de git
+
+| Pregunta | Comando |
 | --- | --- |
-| Every change to art. 168 of the Constitution | `git log -p --word-diff -- constitucion/art-168.md` |
-| Which act wrote each line of art. 168? | `git blame constitucion/art-168.md` |
-| Every version of the Constitution, with the day each took effect (three changed no words) | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" --grep="^CPE" main` |
-| Art. 168 as in force on 1 January 2017 | `python tools/en_vigor_el.py 2017-01-01 constitucion 168` |
+| Todos los cambios del art. 168 de la Constitución | `git log -p --word-diff -- constitucion/art-168.md` |
+| ¿Qué norma escribió cada línea del art. 168? | `git blame constitucion/art-168.md` |
+| Todas las versiones de la Constitución, con el día en que entró en vigor cada una (tres no cambiaron ninguna palabra) | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" --grep="^CPE" main` |
+| El art. 168 vigente al 1 de enero de 2017 | `python tools/en_vigor_el.py 2017-01-01 constitucion 168` |
 
-**Outside git**, we also host this record publicly, for free:
+**Fuera de git**, también alojamos este registro de forma pública y gratuita:
 
-- **[Ask Claude about Bolivian law](https://global-law.lexifina.com/v1/try_claude?country=bolivia)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=bolivia)**: the same question in ChatGPT.
-- **[Search Bolivian law on our site](https://lexifina.com/law?country=bolivia&q=vacaciones)**: a search for "vacaciones", with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=bolivia)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Preguntar a Claude sobre el derecho boliviano](https://global-law.lexifina.com/v1/try_claude?country=bolivia)**: abre Claude con una primera pregunta preparada.
+- **[Preguntar a ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=bolivia)**: la misma pregunta en ChatGPT.
+- **[Buscar en el derecho boliviano en nuestro sitio](https://lexifina.com/law?country=bolivia&q=vacaciones)**: una búsqueda de "vacaciones", con el texto de cada disposición y sus versiones, sin necesidad de cuenta.
+- **[API REST para desarrolladores](https://global-law.lexifina.com/v1/search_law?query=vacaciones&jurisdiction=bolivia)**: la misma búsqueda en JSON, sin clave. Consulte la [documentación aquí](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Spanish or in English.
+Ambos asistentes leen el registro a través del conector gratuito Global law (MCP, `https://global-law.lexifina.com/mcp`); la primera vez, el chat le da el enlace para agregarlo. Pregunte en español o en inglés.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**Alójelo usted mismo fácilmente.** Solo hacen falta git y Python, y las herramientas se ejecutan en su equipo:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -37,59 +43,57 @@ python3 tools/countries.py add bolivia/national/acts
 python3 tools/law.py show 2026-01-01 bolivia/national/acts/constitucion/art-168.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Abierto en Claude Code, Cursor, VS Code o Codex, el clon también inicia un servidor MCP local con las mismas herramientas ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## Fechas
 
-Each commit is dated at noon, America/La_Paz, and carries its day in its `In-force:` trailer:
+Cada commit está fechado a las doce del mediodía, hora de America/La_Paz, y lleva su día en su trailer `In-force:`:
 
-- a law binds from the day it is published in the Gaceta Oficial unless it sets another term (Constitución art. 164.II); the Constitution took effect on its publication, 7 February 2009, as its disposición final provides;
-- SILEP does not give the Gaceta day of a text's last change, so each code and law is dated by the earliest archived copy of SILEP's page (or of its PDF) with the same words, the first day the source shows that text, and is not back-dated (the Código Civil is dated 2024-02-24, though in force since 2 April 1976);
-- the referendum and the two rulings are dated by the vote (21 February 2016) and the decisions (28 November 2017, 28 December 2023).
+- una ley es de cumplimiento obligatorio desde el día de su publicación en la Gaceta Oficial, salvo que establezca otro plazo (art. 164.II de la Constitución); la Constitución entró en vigor con su publicación, el 7 de febrero de 2009, como dispone su disposición final;
+- el SILEP no indica el día de la Gaceta en que se publicó el último cambio de un texto, por lo que cada código y ley se fecha por la copia archivada más antigua de la página del SILEP (o de su PDF) con las mismas palabras, el primer día en que la fuente muestra ese texto, y no se le asigna una fecha retroactiva (el Código Civil está fechado el 2024-02-24, aunque está vigente desde el 2 de abril de 1976);
+- el referendo y las dos sentencias se fechan por la votación (21 de febrero de 2016) y por las decisiones (28 de noviembre de 2017, 28 de diciembre de 2023).
 
-The Constitution is credited to its approval and promulgation (`CPE 2009`), and the referendum and each ruling to themselves, at addresses that cannot exist (`scp-0084-2017@gacetaoficialdebolivia.invalid`), so `git blame` and `git log --author` name them. The 35 codes and laws are credited to their publisher, SILEP (Vicepresidencia del Estado), as the "oldest version available", and each commit message names the laws SILEP lists as having changed its provisions, where it lists any; the committer is Lexifina.
+La Constitución se atribuye a su aprobación y promulgación (`CPE 2009`), y el referendo y cada sentencia a sí mismos, con direcciones que no pueden existir (`scp-0084-2017@gacetaoficialdebolivia.invalid`), de modo que `git blame` y `git log --author` los indican. Los 35 códigos y leyes se atribuyen a quien los publica, el SILEP (Vicepresidencia del Estado), como "versión más antigua disponible", y el mensaje de cada commit indica las leyes que, según el SILEP, modificaron sus disposiciones, cuando el SILEP enumera alguna; el committer es Lexifina.
 
-## How it is checked
+## Cómo se verifica
 
-- The Constitution is the Gaceta Oficial's *texto de consulta*, compared unit by unit (412 units) with the official editions of the Tribunal Constitucional Plurinacional (2023) and the Cámara de Diputados (2025): its wording agrees with at least one of them everywhere, and every difference is listed in `REPRODUCE.md`. The preamble, which the Gaceta's text lacks, is the TCP's and must equal the Diputados one.
-- The codes and laws are SILEP's text as printed, without its lists of links; the parser checks that every article appears once and in order, and where an archived copy of SILEP's PDF of the same law exists, its words are the same.
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before; both must match the corpus: 39 versions of 36 acts, 0 mismatches, and a second build gave identical hashes ([`REPRODUCE.md`](REPRODUCE.md)).
-- History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- La Constitución es el *texto de consulta* de la Gaceta Oficial, cotejado unidad por unidad (412 unidades) con las ediciones oficiales del Tribunal Constitucional Plurinacional (2023) y de la Cámara de Diputados (2025): su redacción coincide en todo con al menos una de ellas, y cada diferencia se enumera en `REPRODUCE.md`. El preámbulo, que falta en el texto de la Gaceta, es el del TCP y debe ser idéntico al de Diputados.
+- Los códigos y leyes son el texto del SILEP tal como se publica, sin sus listas de enlaces; el analizador verifica que cada artículo aparezca una sola vez y en orden, y, donde existe una copia archivada del PDF del SILEP de la misma ley, sus palabras son las mismas.
+- `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigor y el día anterior; ambas lecturas deben coincidir con el corpus: 39 versiones de 36 normas, 0 discrepancias, y una segunda compilación dio hashes idénticos ([`REPRODUCE.md`](REPRODUCE.md)).
+- La historia solo admite agregados (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada fechado en el futuro, y los trailers de todos los commits se analizan sin errores.
 
-## What it does not show
+## Qué no muestra
 
-- **Earlier wordings.** Each code and law is one text: how the Código Civil read between 1976 and 2010, for example, is not here, only which laws SILEP says last changed which articles.
-- **Amendments SILEP did not record.** SILEP stopped applying amendments around 2019-2020, and the newest copy of its Código de Comercio page is from May 2020, so the Code is shown as it stood then.
-- **Most national law.** The Gaceta Oficial's index lists 5,617 leyes; 36 acts are here. The Código Penal, the Código de Procedimiento Penal, the Código Procesal Civil, Ley 1178 (SAFCO) and others are left out because SILEP's pages lack later amendments or are incomplete; `REPRODUCE.md` gives each reason.
-- **The Constitutions before 2009** (that of 1967 and its reforms), supreme decrees, and rulings other than the two above.
+- **Las redacciones anteriores.** Cada código y ley es un único texto: por ejemplo, no está aquí cómo se leía el Código Civil entre 1976 y 2010, sino solo qué leyes, según el SILEP, modificaron por última vez qué artículos.
+- **Las modificaciones que el SILEP no registró.** El SILEP dejó de incorporar modificaciones hacia 2019-2020, y la copia más reciente de su página del Código de Comercio es de mayo de 2020, por lo que el Código se muestra tal como estaba entonces.
+- **La mayor parte del derecho nacional.** El índice de la Gaceta Oficial enumera 5.617 leyes; aquí hay 36 normas. El Código Penal, el Código de Procedimiento Penal, el Código Procesal Civil, la Ley 1178 (SAFCO) y otras quedan fuera porque las páginas del SILEP no incluyen modificaciones posteriores o están incompletas; `REPRODUCE.md` indica el motivo de cada una.
+- **Las Constituciones anteriores a 2009** (la de 1967 y sus reformas), los decretos supremos y las sentencias distintas de las dos mencionadas.
 
-## Sources
+## Fuentes
 
-| Source | Kind | Past versions | Notes |
+| Fuente | Tipo | Versiones anteriores | Notas |
 | --- | --- | --- | --- |
-| [Gaceta Oficial del Estado Plurinacional de Bolivia](https://www.gacetaoficialdebolivia.gob.bo) | Official gazette | no | The Constitution's *texto de consulta*, read through an Internet Archive copy of 6 October 2026 |
-| [SILEP](http://www.silep.gob.bo) (Sistema de Información Legal del Estado Plurinacional, Vicepresidencia del Estado) | Official legal information system | no: the current text, with the last law that changed each provision | The Código Civil, the Código de Comercio and 33 laws, read from Internet Archive copies of its pages; its footer leaves the legal reference to the Gaceta |
-| [Tribunal Constitucional Plurinacional](https://tcpbolivia.bo) | Official edition of the Constitution | no | 2023 edition: the preamble and the cross-check |
-| [Cámara de Diputados](https://diputados.gob.bo) | Official edition of the Constitution | no | 2025 edition: the cross-check |
-| [Procuraduría General del Estado](https://www.procuraduria.gob.bo) | State's counsel | n/a | Hosts SCP 1010/2023-S4 and CIDH Informe 121/24, the sources for the referendum and the two rulings |
+| [Gaceta Oficial del Estado Plurinacional de Bolivia](https://www.gacetaoficialdebolivia.gob.bo) | Gaceta oficial | no | El *texto de consulta* de la Constitución, leído a través de una copia de Internet Archive del 6 de octubre de 2026 |
+| [SILEP](http://www.silep.gob.bo) (Sistema de Información Legal del Estado Plurinacional, Vicepresidencia del Estado) | Sistema oficial de información legal | no: el texto vigente, con la última ley que modificó cada disposición | El Código Civil, el Código de Comercio y 33 leyes, leídos de copias de sus páginas en Internet Archive; su pie de página remite a la Gaceta como referencia legal |
+| [Tribunal Constitucional Plurinacional](https://tcpbolivia.bo) | Edición oficial de la Constitución | no | Edición de 2023: el preámbulo y el cotejo |
+| [Cámara de Diputados](https://diputados.gob.bo) | Edición oficial de la Constitución | no | Edición de 2025: el cotejo |
+| [Procuraduría General del Estado](https://www.procuraduria.gob.bo) | Abogacía del Estado | no corresponde | Aloja la SCP 1010/2023-S4 y el Informe 121/24 de la CIDH, las fuentes del referendo y de las dos sentencias |
 
-## Licence
+## Licencia
 
-See [`LICENSE`](LICENSE). The legal texts are official texts of the Estado Plurinacional de Bolivia, reproduced with attribution to their sources; the Gaceta marks its text "TEXTO DE CONSULTA" and "Derechos Reservados © Gaceta Oficial de Bolivia", no source publishes a licence, and their copyright status is not confirmed. Lexifina's own contributions (the arrangement, commit messages, tables and tools) are CC0 1.0.
+Véase [`LICENSE`](LICENSE). Los textos normativos son textos oficiales del Estado Plurinacional de Bolivia, reproducidos con atribución a sus fuentes; la Gaceta marca su texto como "TEXTO DE CONSULTA" y "Derechos Reservados © Gaceta Oficial de Bolivia", ninguna fuente publica una licencia y la situación de los textos en materia de derecho de autor no está confirmada. Las contribuciones propias de Lexifina (la organización, los mensajes de commit, las tablas y las herramientas) son CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs at build time; the scripts were written by Claude Code running Claude Opus 5.5 (see [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto normativo, y ninguno se ejecuta durante la compilación; los scripts los escribió Claude Code con Claude Opus 5.5 (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
-## En español
+Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
-Historia del derecho nacional boliviano en git: un archivo por artículo y un commit por versión, firmado por la norma, el referendo o la sentencia que le dio origen. Contiene la Constitución Política del Estado de 2009, cuyo texto no ha sido modificado (el referendo de 2016 sobre el art. 168 y las SCP 0084/2017 y 1010/2023-S4 tienen commits propios que no cambian palabras), y 35 códigos y leyes nacionales en el texto actualizado del SILEP, una sola versión por norma, porque el SILEP no publica las redacciones anteriores. Texto vigente en una fecha: `python tools/en_vigor_el.py 2017-01-01 constitucion 168`. Fuentes: Gaceta Oficial del Estado Plurinacional de Bolivia y SILEP (Vicepresidencia del Estado). Ningún modelo de IA escribió texto legal.
+## Más información
 
-## More
+Del repositorio [lexifina/global-law](https://github.com/lexifina/global-law) (páginas en inglés):
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
-
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): todas las funciones y lo que cada corpus debe admitir (`git blame`, `law.py`, herramientas MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): preguntas y respuestas · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proponer cambios · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): servidor MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): cómo se ha construido · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): lo actualizado que está cada corpus · [Supervisión](https://github.com/lexifina/global-law/tree/main/monitoring): si las actualizaciones funcionan · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): cómo se vigila cada fuente oficial para detectar cambios
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): la rapidez de las herramientas, medida
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): gráficos y conexiones a través del derecho de todo el mundo
+- [Vulnerabilidades](https://github.com/lexifina/global-law/tree/main/vulnerabilities): errores en las normas tal como se publicaron
